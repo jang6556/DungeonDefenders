@@ -1,0 +1,575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A25F3372-90CE-4F11-97FD-EA0A8087C55D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Client</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\Bin\</OutDir>
+    <IncludePath>../Default/;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\Bin\</OutDir>
+    <IncludePath>../Default/;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../../Reference/Headers/;../Header/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../Reference/Librarys/</AdditionalLibraryDirectories>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;Engine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>2.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../../Reference/Headers/;../Header/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../Reference/Librarys/</AdditionalLibraryDirectories>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;Engine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>2.0</ShaderModel>
+      <EnableDebuggingInformation>true</EnableDebuggingInformation>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Header\AbilityNumPanel.h" />
+    <ClInclude Include="..\Header\ArcanePad.h" />
+    <ClInclude Include="..\Header\AttackNumPanel.h" />
+    <ClInclude Include="..\Header\AttackPanel.h" />
+    <ClInclude Include="..\Header\BackLogo.h" />
+    <ClInclude Include="..\Header\BloodEffect.h" />
+    <ClInclude Include="..\Header\BlueExplosion.h" />
+    <ClInclude Include="..\Header\BombEffect.h" />
+    <ClInclude Include="..\Header\BombIcon.h" />
+    <ClInclude Include="..\Header\BridgeWall.h" />
+    <ClInclude Include="..\Header\BuildEffect.h" />
+    <ClInclude Include="..\Header\BuildIcon.h" />
+    <ClInclude Include="..\Header\BuildLoadingBar.h" />
+    <ClInclude Include="..\Header\BuildLoadingContent.h" />
+    <ClInclude Include="..\Header\BuildObject.h" />
+    <ClInclude Include="..\Header\BuildObject_Header.h" />
+    <ClInclude Include="..\Header\BuildPoint.h" />
+    <ClInclude Include="..\Header\Bullet.h" />
+    <ClInclude Include="..\Header\CameraDynamic.h" />
+    <ClInclude Include="..\Header\CenterArch.h" />
+    <ClInclude Include="..\Header\CenterWall.h" />
+    <ClInclude Include="..\Header\CoolDownIcon.h" />
+    <ClInclude Include="..\Header\CoolNumPanel.h" />
+    <ClInclude Include="..\Header\CoolPanel.h" />
+    <ClInclude Include="..\Header\CrossBow.h" />
+    <ClInclude Include="..\Header\CrossBowArrow.h" />
+    <ClInclude Include="..\Header\CrossStair.h" />
+    <ClInclude Include="..\Header\Crystal.h" />
+    <ClInclude Include="..\Header\CrystalCore.h" />
+    <ClInclude Include="..\Header\CrystalHead.h" />
+    <ClInclude Include="..\Header\CrystalRing.h" />
+    <ClInclude Include="..\Header\CrystalStaff.h" />
+    <ClInclude Include="..\Header\DamageBuffer.h" />
+    <ClInclude Include="..\Header\DamageFont.h" />
+    <ClInclude Include="..\Header\DamageUpIcon.h" />
+    <ClInclude Include="..\Header\DarkElfArcher.h" />
+    <ClInclude Include="..\Header\DarkElfArrow.h" />
+    <ClInclude Include="..\Header\Decal.h" />
+    <ClInclude Include="..\Header\Decal_Header.h" />
+    <ClInclude Include="..\Header\Define.h" />
+    <ClInclude Include="..\Header\Demon.h" />
+    <ClInclude Include="..\Header\DotIcon.h" />
+    <ClInclude Include="..\Header\DoubleRail.h" />
+    <ClInclude Include="..\Header\Effect.h" />
+    <ClInclude Include="..\Header\Effect_Header.h" />
+    <ClInclude Include="..\Header\EmptyPanel.h" />
+    <ClInclude Include="..\Header\ExpBar.h" />
+    <ClInclude Include="..\Header\FireBullet.h" />
+    <ClInclude Include="..\Header\FireBulletEffect.h" />
+    <ClInclude Include="..\Header\FireBulletFireEffect.h" />
+    <ClInclude Include="..\Header\FogEffect.h" />
+    <ClInclude Include="..\Header\GlowBall.h" />
+    <ClInclude Include="..\Header\Goblin.h" />
+    <ClInclude Include="..\Header\HealIcon.h" />
+    <ClInclude Include="..\Header\HealthNumPanel.h" />
+    <ClInclude Include="..\Header\HealthPanel.h" />
+    <ClInclude Include="..\Header\HealthUpIcon.h" />
+    <ClInclude Include="..\Header\HpBarContent.h" />
+    <ClInclude Include="..\Header\HpBarUI.h" />
+    <ClInclude Include="..\Header\Intro.h" />
+    <ClInclude Include="..\Header\Item.h" />
+    <ClInclude Include="..\Header\ItemEffect.h" />
+    <ClInclude Include="..\Header\Item_Header.h" />
+    <ClInclude Include="..\Header\Kobold.h" />
+    <ClInclude Include="..\Header\LargeCrystalStaff.h" />
+    <ClInclude Include="..\Header\LavaEffect.h" />
+    <ClInclude Include="..\Header\LavaFogEffect.h" />
+    <ClInclude Include="..\Header\LevelPanel.h" />
+    <ClInclude Include="..\Header\LightningBolt.h" />
+    <ClInclude Include="..\Header\LightningBoltEffect.h" />
+    <ClInclude Include="..\Header\LightningSphere.h" />
+    <ClInclude Include="..\Header\LightningTower.h" />
+    <ClInclude Include="..\Header\LightningTowerIcon.h" />
+    <ClInclude Include="..\Header\LightObject.h" />
+    <ClInclude Include="..\Header\LightShot.h" />
+    <ClInclude Include="..\Header\Loading.h" />
+    <ClInclude Include="..\Header\LoadingBarContent.h" />
+    <ClInclude Include="..\Header\LoadingBarFrame.h" />
+    <ClInclude Include="..\Header\LongRail.h" />
+    <ClInclude Include="..\Header\LongStair.h" />
+    <ClInclude Include="..\Header\MagnusController.h" />
+    <ClInclude Include="..\Header\MagnusQuarter.h" />
+    <ClInclude Include="..\Header\MagnusQuater_Header.h" />
+    <ClInclude Include="..\Header\MainApp.h" />
+    <ClInclude Include="..\Header\ManaDownIcon.h" />
+    <ClInclude Include="..\Header\ManaNumPanel.h" />
+    <ClInclude Include="..\Header\ManaPanel.h" />
+    <ClInclude Include="..\Header\ManaToken.h" />
+    <ClInclude Include="..\Header\MissileTowerBullet.h" />
+    <ClInclude Include="..\Header\MissileTowerIcon.h" />
+    <ClInclude Include="..\Header\MissilTower.h" />
+    <ClInclude Include="..\Header\Monster.h" />
+    <ClInclude Include="..\Header\MonsterController.h" />
+    <ClInclude Include="..\Header\MonsterHpBar.h" />
+    <ClInclude Include="..\Header\MonsterHpColor.h" />
+    <ClInclude Include="..\Header\MonsterHpCurr.h" />
+    <ClInclude Include="..\Header\MonsterHpFrame.h" />
+    <ClInclude Include="..\Header\MonsterHpNum.h" />
+    <ClInclude Include="..\Header\MonsterUI.h" />
+    <ClInclude Include="..\Header\Monster_Magnus_Header.h" />
+    <ClInclude Include="..\Header\MousePoint.h" />
+    <ClInclude Include="..\Header\NumberPanel.h" />
+    <ClInclude Include="..\Header\NumberUI.h" />
+    <ClInclude Include="..\Header\NumIcon.h" />
+    <ClInclude Include="..\Header\OrcBruiser.h" />
+    <ClInclude Include="..\Header\Panel.h" />
+    <ClInclude Include="..\Header\PercentIcon.h" />
+    <ClInclude Include="..\Header\Phase.h" />
+    <ClInclude Include="..\Header\Player.h" />
+    <ClInclude Include="..\Header\PlayerInfo.h" />
+    <ClInclude Include="..\Header\PlayerInfoPanel.h" />
+    <ClInclude Include="..\Header\PlayerUI.h" />
+    <ClInclude Include="..\Header\PointIcon.h" />
+    <ClInclude Include="..\Header\PointNumPanel.h" />
+    <ClInclude Include="..\Header\PoisionField.h" />
+    <ClInclude Include="..\Header\PoisionFieldIcon.h" />
+    <ClInclude Include="..\Header\PoisonFieldEffect.h" />
+    <ClInclude Include="..\Header\PresentBomb.h" />
+    <ClInclude Include="..\Header\Projectile.h" />
+    <ClInclude Include="..\Header\RailSet.h" />
+    <ClInclude Include="..\Header\RangeDecal.h" />
+    <ClInclude Include="..\Header\SceneIntro.h" />
+    <ClInclude Include="..\Header\Scene_Magnus.h" />
+    <ClInclude Include="..\Header\SharpBullet.h" />
+    <ClInclude Include="..\Header\SharpBulletEffect.h" />
+    <ClInclude Include="..\Header\SharpBulletExplosive.h" />
+    <ClInclude Include="..\Header\Shield.h" />
+    <ClInclude Include="..\Header\ShieldIcon.h" />
+    <ClInclude Include="..\Header\ShortStair.h" />
+    <ClInclude Include="..\Header\ShotGun.h" />
+    <ClInclude Include="..\Header\SkillDamageNumPanel.h" />
+    <ClInclude Include="..\Header\SkillDamagePanel.h" />
+    <ClInclude Include="..\Header\SkillIcon.h" />
+    <ClInclude Include="..\Header\SkillPanel.h" />
+    <ClInclude Include="..\Header\SkyBox.h" />
+    <ClInclude Include="..\Header\SoundMgr.h" />
+    <ClInclude Include="..\Header\StageTerrain.h" />
+    <ClInclude Include="..\Header\StatBackGround.h" />
+    <ClInclude Include="..\Header\StaticLoadObject.h" />
+    <ClInclude Include="..\Header\StaticMapObject.h" />
+    <ClInclude Include="..\Header\Static_Object.h" />
+    <ClInclude Include="..\Header\StatPanel.h" />
+    <ClInclude Include="..\Header\StatUI.h" />
+    <ClInclude Include="..\Header\StatUI_Header.h" />
+    <ClInclude Include="..\Header\StrikeBeam.h" />
+    <ClInclude Include="..\Header\StrikeTower.h" />
+    <ClInclude Include="..\Header\StrikeTowerIcon.h" />
+    <ClInclude Include="..\Header\SummonDecal.h" />
+    <ClInclude Include="..\Header\TextPanel.h" />
+    <ClInclude Include="..\Header\TextUI.h" />
+    <ClInclude Include="..\Header\Tower.h" />
+    <ClInclude Include="..\Header\TowerBullet.h" />
+    <ClInclude Include="..\Header\TowerHitEffect.h" />
+    <ClInclude Include="..\Header\TresureChest.h" />
+    <ClInclude Include="..\Header\UI_Header.h" />
+    <ClInclude Include="..\Header\VerticalBarBackGround.h" />
+    <ClInclude Include="..\Header\VerticalBarBackGroundRev.h" />
+    <ClInclude Include="..\Header\VerticalBarHP.h" />
+    <ClInclude Include="..\Header\VerticalBarHPEffect.h" />
+    <ClInclude Include="..\Header\VerticalBarMP.h" />
+    <ClInclude Include="..\Header\VerticalBarMPEffect.h" />
+    <ClInclude Include="..\Header\WallTorchAngle.h" />
+    <ClInclude Include="..\Header\WallTorchDouble.h" />
+    <ClInclude Include="..\Header\WallTorchHeight.h" />
+    <ClInclude Include="..\Header\WallTorchLong.h" />
+    <ClInclude Include="..\Header\WallTorchSingle.h" />
+    <ClInclude Include="..\Header\WallTorchTriple.h" />
+    <ClInclude Include="..\Header\WaveBar.h" />
+    <ClInclude Include="..\Header\WaveBarContents.h" />
+    <ClInclude Include="..\Header\WaveInfo.h" />
+    <ClInclude Include="..\Header\WaveNum.h" />
+    <ClInclude Include="..\Header\WavePanel.h" />
+    <ClInclude Include="..\Header\YellowExplosion.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Code\AbilityNumPanel.cpp" />
+    <ClCompile Include="..\Code\ArcanePad.cpp" />
+    <ClCompile Include="..\Code\AttackNumPanel.cpp" />
+    <ClCompile Include="..\Code\AttackPanel.cpp" />
+    <ClCompile Include="..\Code\BackLogo.cpp" />
+    <ClCompile Include="..\Code\BloodEffect.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Code\BlueExplosion.cpp" />
+    <ClCompile Include="..\Code\BombEffect.cpp" />
+    <ClCompile Include="..\Code\BombIcon.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Code\BridgeWall.cpp" />
+    <ClCompile Include="..\Code\BuildEffect.cpp" />
+    <ClCompile Include="..\Code\BuildIcon.cpp" />
+    <ClCompile Include="..\Code\BuildLoadingBar.cpp" />
+    <ClCompile Include="..\Code\BuildLoadingContent.cpp" />
+    <ClCompile Include="..\Code\BuildObject.cpp" />
+    <ClCompile Include="..\Code\BuildPoint.cpp" />
+    <ClCompile Include="..\Code\Bullet.cpp" />
+    <ClCompile Include="..\Code\CameraDynamic.cpp" />
+    <ClCompile Include="..\Code\CenterArch.cpp" />
+    <ClCompile Include="..\Code\CenterWall.cpp" />
+    <ClCompile Include="..\Code\CoolDownIcon.cpp" />
+    <ClCompile Include="..\Code\CoolNumPanel.cpp" />
+    <ClCompile Include="..\Code\CoolPanel.cpp" />
+    <ClCompile Include="..\Code\CrossBow.cpp" />
+    <ClCompile Include="..\Code\CrossBowArrow.cpp" />
+    <ClCompile Include="..\Code\CrossStair.cpp" />
+    <ClCompile Include="..\Code\Crystal.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Code\CrystalCore.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Code\CrystalHead.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Code\CrystalRing.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Code\CrystalStaff.cpp" />
+    <ClCompile Include="..\Code\DamageBuffer.cpp" />
+    <ClCompile Include="..\Code\DamageFont.cpp" />
+    <ClCompile Include="..\Code\DamageUpIcon.cpp" />
+    <ClCompile Include="..\Code\DarkElfArcher.cpp" />
+    <ClCompile Include="..\Code\DarkElfArrow.cpp" />
+    <ClCompile Include="..\Code\Decal.cpp" />
+    <ClCompile Include="..\Code\Demon.cpp" />
+    <ClCompile Include="..\Code\DotIcon.cpp" />
+    <ClCompile Include="..\Code\DoubleRail.cpp" />
+    <ClCompile Include="..\Code\Effect.cpp" />
+    <ClCompile Include="..\Code\EmptyPanel.cpp" />
+    <ClCompile Include="..\Code\ExpBar.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Code\FireBullet.cpp" />
+    <ClCompile Include="..\Code\FireBulletEffect.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Code\FireBulletFireEffect.cpp" />
+    <ClCompile Include="..\Code\FogEffect.cpp" />
+    <ClCompile Include="..\Code\GlowBall.cpp" />
+    <ClCompile Include="..\Code\Goblin.cpp" />
+    <ClCompile Include="..\Code\HealIcon.cpp" />
+    <ClCompile Include="..\Code\HealthNumPanel.cpp" />
+    <ClCompile Include="..\Code\HealthPanel.cpp" />
+    <ClCompile Include="..\Code\HealthUpIcon.cpp" />
+    <ClCompile Include="..\Code\HpBarContent.cpp" />
+    <ClCompile Include="..\Code\HpBarUI.cpp" />
+    <ClCompile Include="..\Code\Intro.cpp" />
+    <ClCompile Include="..\Code\Item.cpp" />
+    <ClCompile Include="..\Code\ItemEffect.cpp" />
+    <ClCompile Include="..\Code\Kobold.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Code\LargeCrystalStaff.cpp" />
+    <ClCompile Include="..\Code\LavaEffect.cpp" />
+    <ClCompile Include="..\Code\LavaFogEffect.cpp" />
+    <ClCompile Include="..\Code\LevelPanel.cpp" />
+    <ClCompile Include="..\Code\LightningBolt.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Code\LightningBoltEffect.cpp" />
+    <ClCompile Include="..\Code\LightningSphere.cpp" />
+    <ClCompile Include="..\Code\LightningTower.cpp" />
+    <ClCompile Include="..\Code\LightningTowerIcon.cpp" />
+    <ClCompile Include="..\Code\LightObject.cpp" />
+    <ClCompile Include="..\Code\LightShot.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Code\Loading.cpp" />
+    <ClCompile Include="..\Code\LoadingBarContent.cpp" />
+    <ClCompile Include="..\Code\LoadingBarFrame.cpp" />
+    <ClCompile Include="..\Code\LongRail.cpp" />
+    <ClCompile Include="..\Code\LongStair.cpp" />
+    <ClCompile Include="..\Code\MagnusController.cpp" />
+    <ClCompile Include="..\Code\MagnusQuarter.cpp" />
+    <ClCompile Include="..\Code\MainApp.cpp" />
+    <ClCompile Include="..\Code\ManaDownIcon.cpp" />
+    <ClCompile Include="..\Code\ManaNumPanel.cpp" />
+    <ClCompile Include="..\Code\ManaPanel.cpp" />
+    <ClCompile Include="..\Code\ManaToken.cpp" />
+    <ClCompile Include="..\Code\MissileTowerBullet.cpp" />
+    <ClCompile Include="..\Code\MissileTowerIcon.cpp" />
+    <ClCompile Include="..\Code\MissilTower.cpp" />
+    <ClCompile Include="..\Code\Monster.cpp" />
+    <ClCompile Include="..\Code\MonsterController.cpp" />
+    <ClCompile Include="..\Code\MonsterHpBar.cpp" />
+    <ClCompile Include="..\Code\MonsterHpColor.cpp" />
+    <ClCompile Include="..\Code\MonsterHpCurr.cpp" />
+    <ClCompile Include="..\Code\MonsterHpFrame.cpp" />
+    <ClCompile Include="..\Code\MonsterHpNum.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Code\MonsterUI.cpp" />
+    <ClCompile Include="..\Code\MousePoint.cpp" />
+    <ClCompile Include="..\Code\NumberPanel.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Code\NumberUI.cpp" />
+    <ClCompile Include="..\Code\NumIcon.cpp" />
+    <ClCompile Include="..\Code\OrcBruiser.cpp" />
+    <ClCompile Include="..\Code\Panel.cpp" />
+    <ClCompile Include="..\Code\PercentIcon.cpp" />
+    <ClCompile Include="..\Code\Phase.cpp" />
+    <ClCompile Include="..\Code\Player.cpp" />
+    <ClCompile Include="..\Code\PlayerInfo.cpp" />
+    <ClCompile Include="..\Code\PlayerInfoPanel.cpp" />
+    <ClCompile Include="..\Code\PlayerUI.cpp" />
+    <ClCompile Include="..\Code\PointIcon.cpp" />
+    <ClCompile Include="..\Code\PointNumPanel.cpp" />
+    <ClCompile Include="..\Code\PoisionField.cpp" />
+    <ClCompile Include="..\Code\PoisionFieldIcon.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Code\PoisonFieldEffect.cpp" />
+    <ClCompile Include="..\Code\PresentBomb.cpp" />
+    <ClCompile Include="..\Code\Projectile.cpp" />
+    <ClCompile Include="..\Code\RailSet.cpp" />
+    <ClCompile Include="..\Code\RangeDecal.cpp" />
+    <ClCompile Include="..\Code\SceneIntro.cpp" />
+    <ClCompile Include="..\Code\Scene_Magnus.cpp" />
+    <ClCompile Include="..\Code\SharpBullet.cpp" />
+    <ClCompile Include="..\Code\SharpBulletEffect.cpp" />
+    <ClCompile Include="..\Code\SharpBulletExplosive.cpp" />
+    <ClCompile Include="..\Code\Shield.cpp" />
+    <ClCompile Include="..\Code\ShieldIcon.cpp" />
+    <ClCompile Include="..\Code\ShortStair.cpp" />
+    <ClCompile Include="..\Code\ShotGun.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Code\SkillDamageNumPanel.cpp" />
+    <ClCompile Include="..\Code\SkillDamagePanel.cpp" />
+    <ClCompile Include="..\Code\SkillIcon.cpp" />
+    <ClCompile Include="..\Code\SkillPanel.cpp" />
+    <ClCompile Include="..\Code\SkyBox.cpp" />
+    <ClCompile Include="..\Code\SoundMgr.cpp" />
+    <ClCompile Include="..\Code\StageTerrain.cpp" />
+    <ClCompile Include="..\Code\StatBackGround.cpp" />
+    <ClCompile Include="..\Code\StaticLoadObject.cpp" />
+    <ClCompile Include="..\Code\StaticMapObject.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Code\StatPanel.cpp" />
+    <ClCompile Include="..\Code\StatUI.cpp" />
+    <ClCompile Include="..\Code\StrikeBeam.cpp" />
+    <ClCompile Include="..\Code\StrikeTower.cpp" />
+    <ClCompile Include="..\Code\StrikeTowerIcon.cpp" />
+    <ClCompile Include="..\Code\SummonDecal.cpp" />
+    <ClCompile Include="..\Code\TextPanel.cpp" />
+    <ClCompile Include="..\Code\TextUI.cpp" />
+    <ClCompile Include="..\Code\Tower.cpp" />
+    <ClCompile Include="..\Code\TowerBullet.cpp" />
+    <ClCompile Include="..\Code\TowerHitEffect.cpp" />
+    <ClCompile Include="..\Code\TresureChest.cpp" />
+    <ClCompile Include="..\Code\VerticalBarBackGround.cpp" />
+    <ClCompile Include="..\Code\VerticalBarBackGroundRev.cpp" />
+    <ClCompile Include="..\Code\VerticalBarHP.cpp" />
+    <ClCompile Include="..\Code\VerticalBarHPEffect.cpp" />
+    <ClCompile Include="..\Code\VerticalBarMP.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\Code\VerticalBarMPEffect.cpp" />
+    <ClCompile Include="..\Code\WallTorchAngle.cpp" />
+    <ClCompile Include="..\Code\WallTorchDouble.cpp" />
+    <ClCompile Include="..\Code\WallTorchHeight.cpp" />
+    <ClCompile Include="..\Code\WallTorchLong.cpp" />
+    <ClCompile Include="..\Code\WallTorchSingle.cpp" />
+    <ClCompile Include="..\Code\WallTorchTriple.cpp" />
+    <ClCompile Include="..\Code\WaveBar.cpp" />
+    <ClCompile Include="..\Code\WaveBarContents.cpp" />
+    <ClCompile Include="..\Code\WaveInfo.cpp" />
+    <ClCompile Include="..\Code\WaveNum.cpp" />
+    <ClCompile Include="..\Code\WavePanel.cpp" />
+    <ClCompile Include="..\Code\YellowExplosion.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="ShaderFile\Shader.fx" />
+    <FxCompile Include="ShaderFile\ShaderEffect.fx" />
+    <FxCompile Include="ShaderFile\ShaderUI.fx" />
+    <FxCompile Include="ShaderFile\ShaderUI_Cool.fx" />
+    <FxCompile Include="ShaderFile\ShaderVertical.fx" />
+    <FxCompile Include="ShaderFile\ShaderVerticalEffect.fx" />
+    <FxCompile Include="ShaderFile\Shader_Default.fx" />
+    <FxCompile Include="ShaderFile\Shader_Tower_Bullet.fx" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

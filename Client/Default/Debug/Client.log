@@ -1,0 +1,557 @@
+﻿  stdafx.cpp
+c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\crtdbg.h(302): warning C4005: '_malloca': 매크로 재정의
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\malloc.h(120): note: '_malloca'의 이전 정의를 참조하십시오.
+e:\frame\reference\headers\engine_macro.h(10): warning C4005: 'PURE': 매크로 재정의
+  c:\program files (x86)\windows kits\8.1\include\um\combaseapi.h(193): note: 'PURE'의 이전 정의를 참조하십시오.
+e:\frame\reference\headers\transform.h(9): warning C4251: 'Engine::CTransform::matWorld': struct 'D3DXMATRIX'에서는 class 'Engine::CTransform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(312): note: 'D3DXMATRIX' 선언을 참조하십시오.
+e:\frame\reference\headers\texture.h(11): warning C4251: 'Engine::CTexture::m_vecTexture': class 'std::vector<IDirect3DBaseTexture9 *,std::allocator<_Ty>>'에서는 class 'Engine::CTexture'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=IDirect3DBaseTexture9 *
+          ]
+  e:\frame\reference\headers\texture.h(11): note: 'std::vector<IDirect3DBaseTexture9 *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=IDirect3DBaseTexture9 *
+          ]
+e:\frame\reference\headers\gameobject.h(13): warning C4251: 'Engine::CGameObject::m_MapComponent': class 'std::map<const Engine::_tchar *,std::list<Engine::CComponent *,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::list<_Ty,std::allocator<_Ty>>>>>'에서는 class 'Engine::CGameObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=Engine::CComponent *,
+              _Kty=const Engine::_tchar *
+          ]
+  e:\frame\reference\headers\gameobject.h(13): note: 'std::map<const Engine::_tchar *,std::list<Engine::CComponent *,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::list<_Ty,std::allocator<_Ty>>>>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=Engine::CComponent *,
+              _Kty=const Engine::_tchar *
+          ]
+e:\frame\reference\headers\gameobject.h(18): warning C4251: 'Engine::CGameObject::m_ColliderData': class 'std::vector<Engine::OBJCOLLIDERDATA *,std::allocator<_Ty>>'에서는 class 'Engine::CGameObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=Engine::OBJCOLLIDERDATA *
+          ]
+  e:\frame\reference\headers\gameobject.h(18): note: 'std::vector<Engine::OBJCOLLIDERDATA *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=Engine::OBJCOLLIDERDATA *
+          ]
+e:\frame\reference\headers\renderer.h(15): warning C4251: 'Engine::CRenderer::RedererList': class 'std::list<Engine::CGameObject *,std::allocator<_Ty>>'에서는 class 'Engine::CRenderer'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=Engine::CGameObject *
+          ]
+  e:\frame\reference\headers\renderer.h(15): note: 'std::list<Engine::CGameObject *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=Engine::CGameObject *
+          ]
+e:\frame\reference\headers\meshdynamic.h(15): warning C4251: 'Engine::CMeshDynamic::m_MeshContainer': class 'std::vector<Engine::LPEXMESHCONTAINER,std::allocator<_Ty>>'에서는 class 'Engine::CMeshDynamic'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=Engine::LPEXMESHCONTAINER
+          ]
+  e:\frame\reference\headers\meshdynamic.h(15): note: 'std::vector<Engine::LPEXMESHCONTAINER,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=Engine::LPEXMESHCONTAINER
+          ]
+e:\frame\reference\headers\meshdynamic.h(16): warning C4251: 'Engine::CMeshDynamic::m_matPivot': struct 'D3DXMATRIX'에서는 class 'Engine::CMeshDynamic'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(312): note: 'D3DXMATRIX' 선언을 참조하십시오.
+e:\frame\reference\headers\collider.h(32): warning C4251: 'Engine::CCollider::m_matWorld': struct 'D3DXMATRIX'에서는 class 'Engine::CCollider'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(312): note: 'D3DXMATRIX' 선언을 참조하십시오.
+e:\frame\reference\headers\collider.h(33): warning C4251: 'Engine::CCollider::m_vMin': struct 'D3DXVECTOR3'에서는 class 'Engine::CCollider'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(162): note: 'D3DXVECTOR3' 선언을 참조하십시오.
+e:\frame\reference\headers\collider.h(34): warning C4251: 'Engine::CCollider::m_vMax': struct 'D3DXVECTOR3'에서는 class 'Engine::CCollider'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(162): note: 'D3DXVECTOR3' 선언을 참조하십시오.
+e:\frame\reference\headers\navimesh.h(11): warning C4251: 'Engine::CNaviMesh::m_pCell_Vector': class 'std::vector<Engine::CCell *,std::allocator<_Ty>>'에서는 class 'Engine::CNaviMesh'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=Engine::CCell *
+          ]
+  e:\frame\reference\headers\navimesh.h(11): note: 'std::vector<Engine::CCell *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=Engine::CCell *
+          ]
+e:\frame\reference\headers\navimesh.h(12): warning C4251: 'Engine::CNaviMesh::m_MonNavi_Vector': class 'std::vector<Engine::CMonSphere *,std::allocator<_Ty>>'에서는 class 'Engine::CNaviMesh'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=Engine::CMonSphere *
+          ]
+  e:\frame\reference\headers\navimesh.h(12): note: 'std::vector<Engine::CMonSphere *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=Engine::CMonSphere *
+          ]
+e:\frame\reference\headers\monsphere.h(14): warning C4251: 'Engine::CMonSphere::m_vPosition': struct 'D3DXVECTOR3'에서는 class 'Engine::CMonSphere'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(162): note: 'D3DXVECTOR3' 선언을 참조하십시오.
+e:\frame\reference\headers\frustum.h(10): warning C4251: 'Engine::CFrustum::m_vPoint': struct 'D3DXVECTOR3'에서는 class 'Engine::CFrustum'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(162): note: 'D3DXVECTOR3' 선언을 참조하십시오.
+e:\frame\reference\headers\rendertargetmgr.h(11): warning C4251: 'Engine::CRenderTargetMgr::m_MapTarget': class 'std::map<const TCHAR *,Engine::CRender_Target *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'Engine::CRenderTargetMgr'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=const Engine::_tchar *,
+              _Ty=Engine::CRender_Target *
+          ]
+  e:\frame\reference\headers\rendertargetmgr.h(11): note: 'std::map<const TCHAR *,Engine::CRender_Target *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=const Engine::_tchar *,
+              _Ty=Engine::CRender_Target *
+          ]
+e:\frame\reference\headers\rendertargetmgr.h(14): warning C4251: 'Engine::CRenderTargetMgr::m_MapMultiTarget': class 'std::map<const TCHAR *,std::list<Engine::CRender_Target *,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::list<_Ty,std::allocator<_Ty>>>>>'에서는 class 'Engine::CRenderTargetMgr'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=Engine::CRender_Target *,
+              _Kty=const Engine::_tchar *
+          ]
+  e:\frame\reference\headers\rendertargetmgr.h(14): note: 'std::map<const TCHAR *,std::list<Engine::CRender_Target *,std::allocator<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::list<_Ty,std::allocator<_Ty>>>>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=Engine::CRender_Target *,
+              _Kty=const Engine::_tchar *
+          ]
+e:\frame\client\header\tower.h(27): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\header\tower.h(28): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\header\monstercontroller.h(22): warning C4244: '초기화 중': 'float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\header\monstercontroller.h(23): warning C4244: '초기화 중': 'float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\header\monstercontroller.h(24): warning C4244: '초기화 중': 'float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\header\monstercontroller.h(56): warning C4244: '인수': 'Client::CMonsterController::WAVE_STATE'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\header\monstercontroller.h(56): warning C4244: '인수': 'Engine::_uint'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\header\monstercontroller.h(57): warning C4244: '인수': 'Engine::_uint'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Client.cpp
+e:\frame\reference\headers\timemgr.h(18): warning C4251: 'Engine::CTimeMgr::m_mapTimers': class 'std::map<const Engine::_tchar *,Engine::CTimer *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'Engine::CTimeMgr'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=const Engine::_tchar *,
+              _Ty=Engine::CTimer *
+          ]
+  e:\frame\reference\headers\timemgr.h(18): note: 'std::map<const Engine::_tchar *,Engine::CTimer *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=const Engine::_tchar *,
+              _Ty=Engine::CTimer *
+          ]
+  YellowExplosion.cpp
+  WavePanel.cpp
+  WaveNum.cpp
+e:\frame\client\code\wavenum.cpp(104): warning C4244: '인수': 'const int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  WaveInfo.cpp
+  WaveBarContents.cpp
+e:\frame\client\code\wavebarcontents.cpp(90): warning C4244: '인수': 'const int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  WaveBar.cpp
+  WallTorchTriple.cpp
+  WallTorchSingle.cpp
+  WallTorchLong.cpp
+  WallTorchHeight.cpp
+  WallTorchDouble.cpp
+  WallTorchAngle.cpp
+  VerticalBarMPEffect.cpp
+e:\frame\client\header\verticalbarmpeffect.h(16): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\verticalbarmpeffect.cpp(94): warning C4244: '인수': 'const int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  VerticalBarHPEffect.cpp
+e:\frame\client\header\verticalbarhpeffect.h(19): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\verticalbarhpeffect.cpp(101): warning C4244: '인수': 'const int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  VerticalBarHP.cpp
+e:\frame\client\code\verticalbarhp.cpp(81): warning C4244: '인수': 'const int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  VerticalBarBackGroundRev.cpp
+  VerticalBarBackGround.cpp
+  TresureChest.cpp
+  TowerHitEffect.cpp
+  코드를 생성하고 있습니다...
+e:\frame\client\code\wavebar.cpp(17): warning C4715: 'Client::CWaveBar::Initialize': 모든 제어 경로에서 값을 반환하지는 않습니다.
+e:\frame\client\code\wavebarcontents.cpp(18): warning C4715: 'Client::CWaveBarContents::Initialize': 모든 제어 경로에서 값을 반환하지는 않습니다.
+e:\frame\client\code\waveinfo.cpp(17): warning C4715: 'Client::CWaveInfo::Initialize': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  컴파일하고 있습니다...
+  TowerBullet.cpp
+e:\frame\client\code\towerbullet.cpp(176): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Tower.cpp
+e:\frame\client\code\tower.cpp(150): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+e:\frame\client\header\tower.h(27): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\header\tower.h(28): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  TextUI.cpp
+e:\frame\client\code\textui.cpp(89): warning C4244: '인수': 'const int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  TextPanel.cpp
+  SummonDecal.cpp
+e:\frame\client\code\summondecal.cpp(46): warning C4244: '인수': 'DWORD'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  StrikeTowerIcon.cpp
+e:\frame\client\header\skillicon.h(18): warning C4244: '초기화 중': 'float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  StrikeTower.cpp
+e:\frame\client\code\striketower.cpp(33): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\striketower.cpp(185): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\striketower.cpp(186): warning C4244: '*=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\striketower.cpp(188): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\striketower.cpp(189): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  StrikeBeam.cpp
+e:\frame\client\code\strikebeam.cpp(106): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  StaticLoadObject.cpp
+e:\frame\client\code\staticloadobject.cpp(189): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+e:\frame\client\code\staticloadobject.cpp(230): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  StatUI.cpp
+e:\frame\client\header\statui.h(18): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\statui.cpp(39): warning C4244: '-=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\statui.cpp(40): warning C4244: '-=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\statui.cpp(41): warning C4244: '*=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\statui.cpp(45): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\statui.cpp(46): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\statui.cpp(48): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\statui.cpp(49): warning C4244: '=': 'FLOAT'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\statui.cpp(108): warning C4244: '인수': 'const int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  StatPanel.cpp
+e:\frame\client\header\statui.h(18): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  StatBackGround.cpp
+e:\frame\client\header\statui.h(18): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  StageTerrain.cpp
+  SoundMgr.cpp
+  SkyBox.cpp
+  SkillPanel.cpp
+e:\frame\client\code\skillpanel.cpp(79): warning C4244: '인수': 'const int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SkillIcon.cpp
+e:\frame\client\header\skillicon.h(18): warning C4244: '초기화 중': 'float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\skillicon.cpp(78): warning C4244: '인수': 'const int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SkillDamagePanel.cpp
+e:\frame\client\header\statui.h(18): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SkillDamageNumPanel.cpp
+e:\frame\client\header\statui.h(18): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ShortStair.cpp
+e:\frame\client\code\shortstair.cpp(79): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  ShieldIcon.cpp
+e:\frame\client\header\skillicon.h(18): warning C4244: '초기화 중': 'float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Shield.cpp
+e:\frame\client\code\shield.cpp(50): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SharpBulletExplosive.cpp
+  SharpBulletEffect.cpp
+  SharpBullet.cpp
+  Scene_Magnus.cpp
+e:\frame\reference\headers\cameraobject.h(36): warning C4251: 'Engine::CCameraObject::m_pCamerInfo': struct 'Engine::CCameraObject::tagCameraInfo'에서는 class 'Engine::CCameraObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  e:\frame\reference\headers\cameraobject.h(9): note: 'Engine::CCameraObject::tagCameraInfo' 선언을 참조하십시오.
+e:\frame\client\header\arcanepad.h(26): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SceneIntro.cpp
+e:\frame\client\header\loading.h(14): warning C4244: '초기화 중': 'float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  RangeDecal.cpp
+e:\frame\client\code\rangedecal.cpp(46): warning C4244: '인수': 'DWORD'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  RailSet.cpp
+  Projectile.cpp
+e:\frame\client\code\projectile.cpp(89): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  PresentBomb.cpp
+e:\frame\client\code\presentbomb.cpp(89): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\presentbomb.cpp(90): warning C4244: '*=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\presentbomb.cpp(92): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\presentbomb.cpp(95): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\presentbomb.cpp(158): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  PoisonFieldEffect.cpp
+  PoisionField.cpp
+e:\frame\client\header\fogeffect.h(10): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\poisionfield.cpp(103): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\poisionfield.cpp(104): warning C4244: '*=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\poisionfield.cpp(107): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\poisionfield.cpp(110): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  PointNumPanel.cpp
+e:\frame\client\header\statui.h(18): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  PointIcon.cpp
+e:\frame\client\header\statui.h(18): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  PlayerUI.cpp
+e:\frame\client\code\playerui.cpp(58): warning C4244: '인수': 'const int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  PlayerInfoPanel.cpp
+e:\frame\client\header\statui.h(18): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  PlayerInfo.cpp
+  Player.cpp
+e:\frame\client\code\player.cpp(41): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+e:\frame\client\code\player.cpp(308): warning C4244: '-=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\player.cpp(317): warning C4244: '-=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\player.cpp(335): warning C4244: '-=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\player.cpp(342): warning C4244: '+=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\player.cpp(346): warning C4244: '-=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\player.cpp(363): warning C4244: '-=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\player.cpp(374): warning C4244: '-=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\player.cpp(384): warning C4244: '-=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\player.cpp(395): warning C4244: '-=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\player.cpp(406): warning C4244: '-=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\player.cpp(417): warning C4244: '-=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\player.cpp(484): warning C4244: '=': 'FLOAT'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\player.cpp(488): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\player.cpp(489): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\player.cpp(491): warning C4244: '=': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\player.cpp(827): warning C4244: '인수': 'Engine::_uint'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\player.cpp(904): warning C4244: 'return': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Phase.cpp
+e:\frame\client\code\phase.cpp(102): warning C4244: '인수': 'const int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+e:\frame\client\code\poisionfield.cpp(52): warning C4715: 'Client::CPoisionField::AddComponent': 모든 제어 경로에서 값을 반환하지는 않습니다.
+e:\frame\client\code\sharpbullet.cpp(19): warning C4715: 'Client::CSharpBullet::Initialize': 모든 제어 경로에서 값을 반환하지는 않습니다.
+e:\frame\client\code\sharpbulleteffect.cpp(17): warning C4715: 'Client::CSharpBulletEffect::Initialize': 모든 제어 경로에서 값을 반환하지는 않습니다.
+e:\frame\client\code\sharpbulletexplosive.cpp(18): warning C4715: 'Client::CSharpBulletExplosive::Initialize': 모든 제어 경로에서 값을 반환하지는 않습니다.
+e:\frame\client\code\shieldicon.cpp(19): warning C4715: 'Client::CShieldIcon::Initialize': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  컴파일하고 있습니다...
+  PercentIcon.cpp
+e:\frame\client\header\statui.h(18): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Panel.cpp
+  OrcBruiser.cpp
+e:\frame\client\code\orcbruiser.cpp(30): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\orcbruiser.cpp(31): warning C4244: '=': 'float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\orcbruiser.cpp(44): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  NumberUI.cpp
+e:\frame\client\code\numberui.cpp(87): warning C4244: '인수': 'const int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  NumIcon.cpp
+e:\frame\client\header\statui.h(18): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MousePoint.cpp
+e:\frame\client\code\mousepoint.cpp(68): warning C4244: '*=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\mousepoint.cpp(70): warning C4244: '-=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\mousepoint.cpp(71): warning C4244: '+=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\mousepoint.cpp(73): warning C4244: '인수': 'LONG'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\mousepoint.cpp(103): warning C4244: '인수': 'const int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\mousepoint.cpp(110): warning C4244: '인수': 'float'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MonsterUI.cpp
+  MonsterHpFrame.cpp
+  MonsterHpCurr.cpp
+  MonsterHpColor.cpp
+  MonsterHpBar.cpp
+  MonsterController.cpp
+e:\frame\client\code\monstercontroller.cpp(168): warning C4244: '=': 'float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\header\monstercontroller.h(22): warning C4244: '초기화 중': 'float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\header\monstercontroller.h(23): warning C4244: '초기화 중': 'float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\header\monstercontroller.h(24): warning C4244: '초기화 중': 'float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Monster.cpp
+e:\frame\client\code\monster.cpp(701): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  MissileTowerIcon.cpp
+e:\frame\client\header\skillicon.h(18): warning C4244: '초기화 중': 'float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MissileTowerBullet.cpp
+  MissilTower.cpp
+e:\frame\client\code\missiltower.cpp(31): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ManaToken.cpp
+e:\frame\client\code\manatoken.cpp(25): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\manatoken.cpp(212): warning C4244: '인수': 'Client::CManaToken::MANA'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\manatoken.cpp(270): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  ManaPanel.cpp
+e:\frame\client\header\statui.h(18): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ManaNumPanel.cpp
+e:\frame\client\header\statui.h(18): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ManaDownIcon.cpp
+e:\frame\client\header\statui.h(18): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+e:\frame\client\code\monsterhpcolor.cpp(19): warning C4715: 'Client::CMonsterHpColor::Initialize': 모든 제어 경로에서 값을 반환하지는 않습니다.
+e:\frame\client\code\numberui.cpp(30): warning C4715: 'Client::CNumberUI::Initialize': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  컴파일하고 있습니다...
+  MainApp.cpp
+e:\frame\reference\headers\cameraobject.h(36): warning C4251: 'Engine::CCameraObject::m_pCamerInfo': struct 'Engine::CCameraObject::tagCameraInfo'에서는 class 'Engine::CCameraObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  e:\frame\reference\headers\cameraobject.h(9): note: 'Engine::CCameraObject::tagCameraInfo' 선언을 참조하십시오.
+e:\frame\client\header\verticalbarhpeffect.h(19): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\header\verticalbarmpeffect.h(16): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\header\skillicon.h(18): warning C4244: '초기화 중': 'float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\header\fogeffect.h(10): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\header\buildeffect.h(10): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MagnusQuarter.cpp
+e:\frame\client\code\magnusquarter.cpp(88): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  MagnusController.cpp
+e:\frame\client\code\magnuscontroller.cpp(120): warning C4244: '=': 'float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  LongStair.cpp
+e:\frame\client\code\longstair.cpp(78): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  LongRail.cpp
+  LoadingBarFrame.cpp
+e:\frame\client\code\loadingbarframe.cpp(78): warning C4244: '인수': 'const int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  LoadingBarContent.cpp
+e:\frame\client\code\loadingbarcontent.cpp(78): warning C4244: '인수': 'const int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Loading.cpp
+e:\frame\client\header\loading.h(14): warning C4244: '초기화 중': 'float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\reference\headers\cameraobject.h(36): warning C4251: 'Engine::CCameraObject::m_pCamerInfo': struct 'Engine::CCameraObject::tagCameraInfo'에서는 class 'Engine::CCameraObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  e:\frame\reference\headers\cameraobject.h(9): note: 'Engine::CCameraObject::tagCameraInfo' 선언을 참조하십시오.
+e:\frame\client\header\verticalbarhpeffect.h(19): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\header\verticalbarmpeffect.h(16): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\header\skillicon.h(18): warning C4244: '초기화 중': 'float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\header\fogeffect.h(10): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\header\buildeffect.h(10): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\header\statui.h(18): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  LightningTowerIcon.cpp
+e:\frame\client\header\skillicon.h(18): warning C4244: '초기화 중': 'float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  LightningTower.cpp
+e:\frame\client\code\lightningtower.cpp(28): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\lightningtower.cpp(68): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+e:\frame\client\code\lightningtower.cpp(96): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\lightningtower.cpp(97): warning C4244: '*=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\lightningtower.cpp(99): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\lightningtower.cpp(101): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  LightningSphere.cpp
+  LightningBoltEffect.cpp
+  LightObject.cpp
+  LevelPanel.cpp
+e:\frame\client\header\statui.h(18): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  LavaFogEffect.cpp
+  LavaEffect.cpp
+  LargeCrystalStaff.cpp
+  ItemEffect.cpp
+e:\frame\client\code\itemeffect.cpp(18): warning C4244: '초기화 중': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Item.cpp
+e:\frame\client\code\item.cpp(85): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Intro.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  HpBarUI.cpp
+  HpBarContent.cpp
+  HealthUpIcon.cpp
+e:\frame\client\header\statui.h(18): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  HealthPanel.cpp
+e:\frame\client\header\statui.h(18): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  HealthNumPanel.cpp
+e:\frame\client\header\statui.h(18): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  HealIcon.cpp
+e:\frame\client\header\skillicon.h(18): warning C4244: '초기화 중': 'float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Goblin.cpp
+e:\frame\client\code\goblin.cpp(30): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\goblin.cpp(31): warning C4244: '=': 'float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\goblin.cpp(45): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  GlowBall.cpp
+e:\frame\client\code\glowball.cpp(118): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  FogEffect.cpp
+e:\frame\client\header\fogeffect.h(10): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\fogeffect.cpp(56): warning C4244: '*=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  FireBulletFireEffect.cpp
+  FireBullet.cpp
+  EmptyPanel.cpp
+e:\frame\client\header\statui.h(18): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Effect.cpp
+  DoubleRail.cpp
+  DotIcon.cpp
+e:\frame\client\header\statui.h(18): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Demon.cpp
+e:\frame\client\code\demon.cpp(39): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+e:\frame\client\code\demon.cpp(175): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Decal.cpp
+  DarkElfArrow.cpp
+e:\frame\client\code\darkelfarrow.cpp(196): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  DarkElfArcher.cpp
+e:\frame\client\code\darkelfarcher.cpp(30): warning C4244: '=': 'float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\darkelfarcher.cpp(44): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  DamageUpIcon.cpp
+e:\frame\client\header\statui.h(18): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  DamageFont.cpp
+e:\frame\client\code\damagefont.cpp(51): warning C4244: '초기화 중': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\damagefont.cpp(57): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\damagefont.cpp(70): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\damagefont.cpp(70): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\damagefont.cpp(75): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\damagefont.cpp(75): warning C4244: '=': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\damagefont.cpp(89): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\damagefont.cpp(93): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\damagefont.cpp(97): warning C4244: '/=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  DamageBuffer.cpp
+e:\frame\client\code\damagebuffer.cpp(97): warning C4244: '인수': 'const int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\damagebuffer.cpp(106): warning C4244: '인수': 'FLOAT'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CrystalStaff.cpp
+  CrossStair.cpp
+e:\frame\client\code\crossstair.cpp(81): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  CrossBowArrow.cpp
+  CrossBow.cpp
+e:\frame\client\code\crossbow.cpp(94): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+e:\frame\client\code\crossbow.cpp(135): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  CoolPanel.cpp
+e:\frame\client\header\statui.h(18): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CoolNumPanel.cpp
+e:\frame\client\header\statui.h(18): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CoolDownIcon.cpp
+e:\frame\client\header\statui.h(18): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CenterWall.cpp
+  CenterArch.cpp
+  CameraDynamic.cpp
+e:\frame\reference\headers\cameraobject.h(36): warning C4251: 'Engine::CCameraObject::m_pCamerInfo': struct 'Engine::CCameraObject::tagCameraInfo'에서는 class 'Engine::CCameraObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  e:\frame\reference\headers\cameraobject.h(9): note: 'Engine::CCameraObject::tagCameraInfo' 선언을 참조하십시오.
+  Bullet.cpp
+e:\frame\client\code\bullet.cpp(107): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\bullet.cpp(109): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\bullet.cpp(114): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\bullet.cpp(167): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  BuildPoint.cpp
+e:\frame\client\code\buildpoint.cpp(44): warning C4244: '인수': 'DWORD'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\buildpoint.cpp(121): warning C4244: '인수': 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  BuildObject.cpp
+e:\frame\client\code\buildobject.cpp(59): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  BuildLoadingContent.cpp
+e:\frame\client\code\buildloadingcontent.cpp(99): warning C4244: '인수': 'const int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  BuildLoadingBar.cpp
+e:\frame\client\code\buildloadingbar.cpp(89): warning C4244: '인수': 'const int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  BuildIcon.cpp
+e:\frame\client\header\skillicon.h(18): warning C4244: '초기화 중': 'float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  BuildEffect.cpp
+e:\frame\client\header\buildeffect.h(10): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  BridgeWall.cpp
+  코드를 생성하고 있습니다...
+e:\frame\client\code\buildloadingbar.cpp(17): warning C4715: 'Client::CBuildLoadingBar::Initialize': 모든 제어 경로에서 값을 반환하지는 않습니다.
+e:\frame\client\code\buildloadingcontent.cpp(17): warning C4715: 'Client::CBuildLoadingContent::Initialize': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  컴파일하고 있습니다...
+  BombEffect.cpp
+  BlueExplosion.cpp
+  BackLogo.cpp
+e:\frame\client\code\backlogo.cpp(11): warning C4244: '인수': 'const int'에서 'const float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\backlogo.cpp(83): warning C4244: '인수': 'const int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\backlogo.cpp(89): warning C4244: '인수': 'float'에서 'const int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  AttackPanel.cpp
+e:\frame\client\header\statui.h(18): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  AttackNumPanel.cpp
+e:\frame\client\header\statui.h(18): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ArcanePad.cpp
+e:\frame\client\header\arcanepad.h(26): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\arcanepad.cpp(126): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+e:\frame\client\code\arcanepad.cpp(163): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  AbilityNumPanel.cpp
+e:\frame\client\header\statui.h(18): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+  VerticalBarMP.cpp
+e:\frame\client\code\verticalbarmp.cpp(77): warning C4244: '인수': 'const int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  StaticMapObject.cpp
+e:\frame\client\code\staticmapobject.cpp(85): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+e:\frame\client\code\staticmapobject.cpp(126): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  ShotGun.cpp
+e:\frame\client\header\skillicon.h(18): warning C4244: '초기화 중': 'float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  PoisionFieldIcon.cpp
+e:\frame\client\header\skillicon.h(18): warning C4244: '초기화 중': 'float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  NumberPanel.cpp
+e:\frame\client\code\numberpanel.cpp(239): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\numberpanel.cpp(267): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\numberpanel.cpp(272): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\numberpanel.cpp(278): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\numberpanel.cpp(287): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\numberpanel.cpp(293): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\numberpanel.cpp(300): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\numberpanel.cpp(305): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\numberpanel.cpp(306): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\numberpanel.cpp(309): warning C4244: '인수': 'FLOAT'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MonsterHpNum.cpp
+e:\frame\client\code\monsterhpnum.cpp(22): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+e:\frame\client\code\monsterhpnum.cpp(68): warning C4244: '초기화 중': 'const float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  LightningBolt.cpp
+e:\frame\client\code\lightningbolt.cpp(99): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  LightShot.cpp
+e:\frame\client\header\skillicon.h(18): warning C4244: '초기화 중': 'float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Kobold.cpp
+e:\frame\client\code\kobold.cpp(27): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\kobold.cpp(28): warning C4244: '=': 'float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\frame\client\code\kobold.cpp(41): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  FireBulletEffect.cpp
+  ExpBar.cpp
+e:\frame\client\code\expbar.cpp(92): warning C4244: '인수': 'const int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CrystalRing.cpp
+e:\frame\client\code\crystalring.cpp(91): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+e:\frame\client\code\crystalring.cpp(130): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  CrystalHead.cpp
+e:\frame\client\code\crystalhead.cpp(91): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+e:\frame\client\code\crystalhead.cpp(130): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  CrystalCore.cpp
+e:\frame\client\code\crystalcore.cpp(93): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+e:\frame\client\code\crystalcore.cpp(132): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Crystal.cpp
+e:\frame\client\code\crystal.cpp(22): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  BombIcon.cpp
+e:\frame\client\header\skillicon.h(18): warning C4244: '초기화 중': 'float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  BloodEffect.cpp
+  코드를 생성하고 있습니다...
+e:\frame\client\code\kobold.cpp(15): warning C4715: 'Client::CKobold::Initialize': 모든 제어 경로에서 값을 반환하지는 않습니다.
+e:\frame\client\code\kobold.cpp(54): warning C4715: 'Client::CKobold::AddComponent': 모든 제어 경로에서 값을 반환하지는 않습니다.
+e:\frame\client\code\lightshot.cpp(19): warning C4715: 'Client::CLightShot::Initialize': 모든 제어 경로에서 값을 반환하지는 않습니다.
+e:\frame\client\code\shotgun.cpp(19): warning C4715: 'Client::CShotGun::Initialize': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  Client.vcxproj -> E:\Frame\Client\Default\..\Bin\Client.exe
+  Client.vcxproj -> ..\Bin\Client.pdb (Full PDB)

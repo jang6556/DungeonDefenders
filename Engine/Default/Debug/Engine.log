@@ -1,0 +1,7 @@
+﻿  Transform.cpp
+e:\frame\engine\header\engine_macro.h(10): warning C4005: 'PURE': macro redefinition
+  c:\program files (x86)\windows kits\8.1\include\um\combaseapi.h(193): note: see previous definition of 'PURE'
+e:\frame\engine\header\transform.h(9): warning C4251: 'Engine::CTransform::matWorld': struct 'D3DXMATRIX' needs to have dll-interface to be used by clients of class 'Engine::CTransform'
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(312): note: see declaration of 'D3DXMATRIX'
+  Engine.vcxproj -> E:\Frame\Engine\Default\..\Bin\Engine.dll
+  Engine.vcxproj -> ..\Bin\Engine.pdb (Full PDB)

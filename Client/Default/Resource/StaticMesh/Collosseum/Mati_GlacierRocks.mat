@@ -1,0 +1,5 @@
+Diffuse=GlacierRock
+Normal=GlacierRock_Nrm
+Other[0]=WaterHqNoise_Gray
+Other[1]=StubGray_Gray
+Other[2]=StubFlat_Nrm

@@ -1,0 +1,558 @@
+﻿  AnimaitionCtrl.cpp
+e:\frame\engine\header\Engine_Macro.h(10): warning C4005: 'PURE': 매크로 재정의
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\combaseapi.h(193): note: 'PURE'의 이전 정의를 참조하십시오.
+  Base.cpp
+e:\frame\engine\header\Engine_Macro.h(10): warning C4005: 'PURE': 매크로 재정의
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\combaseapi.h(193): note: 'PURE'의 이전 정의를 참조하십시오.
+  CameraObject.cpp
+e:\frame\engine\header\Engine_Macro.h(10): warning C4005: 'PURE': 매크로 재정의
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\combaseapi.h(193): note: 'PURE'의 이전 정의를 참조하십시오.
+e:\frame\engine\header\GameObject.h(13): warning C4251: 'Engine::CGameObject::m_MapComponent': class 'std::map<const Engine::_tchar *,Engine::CComponent *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'Engine::CGameObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=const Engine::_tchar *,
+              _Ty=Engine::CComponent *
+          ]
+  e:\frame\engine\header\GameObject.h(13): note: 'std::map<const Engine::_tchar *,Engine::CComponent *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=const Engine::_tchar *,
+              _Ty=Engine::CComponent *
+          ]
+e:\frame\engine\header\GameObject.h(18): warning C4251: 'Engine::CGameObject::m_ColliderData': class 'std::vector<Engine::OBJCOLLIDERDATA *,std::allocator<_Ty>>'에서는 class 'Engine::CGameObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=Engine::OBJCOLLIDERDATA *
+          ]
+  e:\frame\engine\header\GameObject.h(18): note: 'std::vector<Engine::OBJCOLLIDERDATA *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=Engine::OBJCOLLIDERDATA *
+          ]
+e:\frame\engine\code\..\Header\CameraObject.h(36): warning C4251: 'Engine::CCameraObject::m_pCamerInfo': struct 'Engine::CCameraObject::tagCameraInfo'에서는 class 'Engine::CCameraObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  e:\frame\engine\code\..\Header\CameraObject.h(9): note: 'Engine::CCameraObject::tagCameraInfo' 선언을 참조하십시오.
+  Cell.cpp
+e:\frame\engine\header\Engine_Macro.h(10): warning C4005: 'PURE': 매크로 재정의
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\combaseapi.h(193): note: 'PURE'의 이전 정의를 참조하십시오.
+e:\frame\engine\code\..\Header\Cell.h(16): warning C4251: 'Engine::CCell::m_vPoint': struct 'D3DXVECTOR3'에서는 class 'Engine::CCell'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(162): note: 'D3DXVECTOR3' 선언을 참조하십시오.
+e:\frame\engine\code\..\Header\Cell.h(17): warning C4251: 'Engine::CCell::m_vEdge': struct 'D3DXVECTOR3'에서는 class 'Engine::CCell'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(162): note: 'D3DXVECTOR3' 선언을 참조하십시오.
+  Collider.cpp
+e:\frame\engine\header\Engine_Macro.h(10): warning C4005: 'PURE': 매크로 재정의
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\combaseapi.h(193): note: 'PURE'의 이전 정의를 참조하십시오.
+e:\frame\engine\code\..\Header\Collider.h(21): warning C4251: 'Engine::CCollider::m_matWorld': struct 'D3DXMATRIX'에서는 class 'Engine::CCollider'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(312): note: 'D3DXMATRIX' 선언을 참조하십시오.
+e:\frame\engine\code\..\Header\Collider.h(22): warning C4251: 'Engine::CCollider::m_vMin': struct 'D3DXVECTOR3'에서는 class 'Engine::CCollider'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(162): note: 'D3DXVECTOR3' 선언을 참조하십시오.
+e:\frame\engine\code\..\Header\Collider.h(23): warning C4251: 'Engine::CCollider::m_vMax': struct 'D3DXVECTOR3'에서는 class 'Engine::CCollider'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(162): note: 'D3DXVECTOR3' 선언을 참조하십시오.
+  Component.cpp
+e:\frame\engine\header\Engine_Macro.h(10): warning C4005: 'PURE': 매크로 재정의
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\combaseapi.h(193): note: 'PURE'의 이전 정의를 참조하십시오.
+  ComponentMgr.cpp
+e:\frame\engine\header\Engine_Macro.h(10): warning C4005: 'PURE': 매크로 재정의
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\combaseapi.h(193): note: 'PURE'의 이전 정의를 참조하십시오.
+e:\frame\engine\header\Transform.h(7): warning C4251: 'CTransform::matWorld': struct 'D3DXMATRIX'에서는 class 'CTransform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(312): note: 'D3DXMATRIX' 선언을 참조하십시오.
+e:\frame\engine\header\Texture.h(11): warning C4251: 'Engine::CTexture::m_vecTexture': class 'std::vector<IDirect3DBaseTexture9 *,std::allocator<_Ty>>'에서는 class 'Engine::CTexture'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=IDirect3DBaseTexture9 *
+          ]
+  e:\frame\engine\header\Texture.h(11): note: 'std::vector<IDirect3DBaseTexture9 *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=IDirect3DBaseTexture9 *
+          ]
+e:\frame\engine\header\GameObject.h(13): warning C4251: 'Engine::CGameObject::m_MapComponent': class 'std::map<const Engine::_tchar *,Engine::CComponent *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'Engine::CGameObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=const Engine::_tchar *,
+              _Ty=Engine::CComponent *
+          ]
+  e:\frame\engine\header\GameObject.h(13): note: 'std::map<const Engine::_tchar *,Engine::CComponent *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=const Engine::_tchar *,
+              _Ty=Engine::CComponent *
+          ]
+e:\frame\engine\header\GameObject.h(18): warning C4251: 'Engine::CGameObject::m_ColliderData': class 'std::vector<Engine::OBJCOLLIDERDATA *,std::allocator<_Ty>>'에서는 class 'Engine::CGameObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=Engine::OBJCOLLIDERDATA *
+          ]
+  e:\frame\engine\header\GameObject.h(18): note: 'std::vector<Engine::OBJCOLLIDERDATA *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=Engine::OBJCOLLIDERDATA *
+          ]
+e:\frame\engine\header\Renderer.h(11): warning C4251: 'Engine::CRenderer::RedererList': class 'std::list<Engine::CGameObject *,std::allocator<_Ty>>'에서는 class 'Engine::CRenderer'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=Engine::CGameObject *
+          ]
+  e:\frame\engine\header\Renderer.h(11): note: 'std::list<Engine::CGameObject *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=Engine::CGameObject *
+          ]
+e:\frame\engine\header\MeshDynamic.h(15): warning C4251: 'Engine::CMeshDynamic::m_MeshContainer': class 'std::vector<Engine::LPEXMESHCONTAINER,std::allocator<_Ty>>'에서는 class 'Engine::CMeshDynamic'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=Engine::LPEXMESHCONTAINER
+          ]
+  e:\frame\engine\header\MeshDynamic.h(15): note: 'std::vector<Engine::LPEXMESHCONTAINER,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=Engine::LPEXMESHCONTAINER
+          ]
+e:\frame\engine\header\MeshDynamic.h(16): warning C4251: 'Engine::CMeshDynamic::m_matPivot': struct 'D3DXMATRIX'에서는 class 'Engine::CMeshDynamic'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(312): note: 'D3DXMATRIX' 선언을 참조하십시오.
+e:\frame\engine\header\Collider.h(21): warning C4251: 'Engine::CCollider::m_matWorld': struct 'D3DXMATRIX'에서는 class 'Engine::CCollider'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(312): note: 'D3DXMATRIX' 선언을 참조하십시오.
+e:\frame\engine\header\Collider.h(22): warning C4251: 'Engine::CCollider::m_vMin': struct 'D3DXVECTOR3'에서는 class 'Engine::CCollider'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(162): note: 'D3DXVECTOR3' 선언을 참조하십시오.
+e:\frame\engine\header\Collider.h(23): warning C4251: 'Engine::CCollider::m_vMax': struct 'D3DXVECTOR3'에서는 class 'Engine::CCollider'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(162): note: 'D3DXVECTOR3' 선언을 참조하십시오.
+e:\frame\engine\header\NaviMesh.h(10): warning C4251: 'Engine::CNaviMesh::m_pCell_Vector': class 'std::vector<Engine::CCell *,std::allocator<_Ty>>'에서는 class 'Engine::CNaviMesh'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=Engine::CCell *
+          ]
+  e:\frame\engine\header\NaviMesh.h(10): note: 'std::vector<Engine::CCell *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=Engine::CCell *
+          ]
+..\Code\ComponentMgr.cpp(75): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  GameObject.cpp
+e:\frame\engine\header\Engine_Macro.h(10): warning C4005: 'PURE': 매크로 재정의
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\combaseapi.h(193): note: 'PURE'의 이전 정의를 참조하십시오.
+e:\frame\engine\code\..\Header\GameObject.h(13): warning C4251: 'Engine::CGameObject::m_MapComponent': class 'std::map<const Engine::_tchar *,Engine::CComponent *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'Engine::CGameObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=const Engine::_tchar *,
+              _Ty=Engine::CComponent *
+          ]
+  e:\frame\engine\code\..\Header\GameObject.h(13): note: 'std::map<const Engine::_tchar *,Engine::CComponent *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=const Engine::_tchar *,
+              _Ty=Engine::CComponent *
+          ]
+e:\frame\engine\code\..\Header\GameObject.h(18): warning C4251: 'Engine::CGameObject::m_ColliderData': class 'std::vector<Engine::OBJCOLLIDERDATA *,std::allocator<_Ty>>'에서는 class 'Engine::CGameObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=Engine::OBJCOLLIDERDATA *
+          ]
+  e:\frame\engine\code\..\Header\GameObject.h(18): note: 'std::vector<Engine::OBJCOLLIDERDATA *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=Engine::OBJCOLLIDERDATA *
+          ]
+e:\frame\engine\header\Transform.h(7): warning C4251: 'CTransform::matWorld': struct 'D3DXMATRIX'에서는 class 'CTransform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(312): note: 'D3DXMATRIX' 선언을 참조하십시오.
+e:\frame\engine\header\Texture.h(11): warning C4251: 'Engine::CTexture::m_vecTexture': class 'std::vector<IDirect3DBaseTexture9 *,std::allocator<_Ty>>'에서는 class 'Engine::CTexture'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=IDirect3DBaseTexture9 *
+          ]
+  e:\frame\engine\header\Texture.h(11): note: 'std::vector<IDirect3DBaseTexture9 *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=IDirect3DBaseTexture9 *
+          ]
+e:\frame\engine\header\Renderer.h(11): warning C4251: 'Engine::CRenderer::RedererList': class 'std::list<Engine::CGameObject *,std::allocator<_Ty>>'에서는 class 'Engine::CRenderer'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=Engine::CGameObject *
+          ]
+  e:\frame\engine\header\Renderer.h(11): note: 'std::list<Engine::CGameObject *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=Engine::CGameObject *
+          ]
+e:\frame\engine\header\MeshDynamic.h(15): warning C4251: 'Engine::CMeshDynamic::m_MeshContainer': class 'std::vector<Engine::LPEXMESHCONTAINER,std::allocator<_Ty>>'에서는 class 'Engine::CMeshDynamic'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=Engine::LPEXMESHCONTAINER
+          ]
+  e:\frame\engine\header\MeshDynamic.h(15): note: 'std::vector<Engine::LPEXMESHCONTAINER,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=Engine::LPEXMESHCONTAINER
+          ]
+e:\frame\engine\header\MeshDynamic.h(16): warning C4251: 'Engine::CMeshDynamic::m_matPivot': struct 'D3DXMATRIX'에서는 class 'Engine::CMeshDynamic'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(312): note: 'D3DXMATRIX' 선언을 참조하십시오.
+e:\frame\engine\header\Collider.h(21): warning C4251: 'Engine::CCollider::m_matWorld': struct 'D3DXMATRIX'에서는 class 'Engine::CCollider'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(312): note: 'D3DXMATRIX' 선언을 참조하십시오.
+e:\frame\engine\header\Collider.h(22): warning C4251: 'Engine::CCollider::m_vMin': struct 'D3DXVECTOR3'에서는 class 'Engine::CCollider'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(162): note: 'D3DXVECTOR3' 선언을 참조하십시오.
+e:\frame\engine\header\Collider.h(23): warning C4251: 'Engine::CCollider::m_vMax': struct 'D3DXVECTOR3'에서는 class 'Engine::CCollider'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(162): note: 'D3DXVECTOR3' 선언을 참조하십시오.
+e:\frame\engine\header\NaviMesh.h(10): warning C4251: 'Engine::CNaviMesh::m_pCell_Vector': class 'std::vector<Engine::CCell *,std::allocator<_Ty>>'에서는 class 'Engine::CNaviMesh'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=Engine::CCell *
+          ]
+  e:\frame\engine\header\NaviMesh.h(10): note: 'std::vector<Engine::CCell *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=Engine::CCell *
+          ]
+  GameObjectMgr.cpp
+e:\frame\engine\header\Engine_Macro.h(10): warning C4005: 'PURE': 매크로 재정의
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\combaseapi.h(193): note: 'PURE'의 이전 정의를 참조하십시오.
+e:\frame\engine\code\..\Header\GameObject.h(13): warning C4251: 'Engine::CGameObject::m_MapComponent': class 'std::map<const Engine::_tchar *,Engine::CComponent *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'Engine::CGameObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=const Engine::_tchar *,
+              _Ty=Engine::CComponent *
+          ]
+  e:\frame\engine\code\..\Header\GameObject.h(13): note: 'std::map<const Engine::_tchar *,Engine::CComponent *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=const Engine::_tchar *,
+              _Ty=Engine::CComponent *
+          ]
+e:\frame\engine\code\..\Header\GameObject.h(18): warning C4251: 'Engine::CGameObject::m_ColliderData': class 'std::vector<Engine::OBJCOLLIDERDATA *,std::allocator<_Ty>>'에서는 class 'Engine::CGameObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=Engine::OBJCOLLIDERDATA *
+          ]
+  e:\frame\engine\code\..\Header\GameObject.h(18): note: 'std::vector<Engine::OBJCOLLIDERDATA *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=Engine::OBJCOLLIDERDATA *
+          ]
+  GraphicDev.cpp
+e:\frame\engine\header\Engine_Macro.h(10): warning C4005: 'PURE': 매크로 재정의
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\combaseapi.h(193): note: 'PURE'의 이전 정의를 참조하십시오.
+  HierachyLoader.cpp
+e:\frame\engine\header\Engine_Macro.h(10): warning C4005: 'PURE': 매크로 재정의
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\combaseapi.h(193): note: 'PURE'의 이전 정의를 참조하십시오.
+..\Code\HierachyLoader.cpp(2): warning C4005: '_CRT_SECURE_NO_WARNINGS': 매크로 재정의
+  ..\Code\HierachyLoader.cpp(2): note: 명령줄 인수: '_CRT_SECURE_NO_WARNINGS'의 이전 정의를 참조하십시오.
+  InputDev.cpp
+e:\frame\engine\header\Engine_Macro.h(10): warning C4005: 'PURE': 매크로 재정의
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\combaseapi.h(193): note: 'PURE'의 이전 정의를 참조하십시오.
+  Layer.cpp
+e:\frame\engine\header\Engine_Macro.h(10): warning C4005: 'PURE': 매크로 재정의
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\combaseapi.h(193): note: 'PURE'의 이전 정의를 참조하십시오.
+E:\Frame\Engine\Header\GameObject.h(13): warning C4251: 'Engine::CGameObject::m_MapComponent': class 'std::map<const Engine::_tchar *,Engine::CComponent *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'Engine::CGameObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=const Engine::_tchar *,
+              _Ty=Engine::CComponent *
+          ]
+  E:\Frame\Engine\Header\GameObject.h(13): note: 'std::map<const Engine::_tchar *,Engine::CComponent *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=const Engine::_tchar *,
+              _Ty=Engine::CComponent *
+          ]
+E:\Frame\Engine\Header\GameObject.h(18): warning C4251: 'Engine::CGameObject::m_ColliderData': class 'std::vector<Engine::OBJCOLLIDERDATA *,std::allocator<_Ty>>'에서는 class 'Engine::CGameObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=Engine::OBJCOLLIDERDATA *
+          ]
+  E:\Frame\Engine\Header\GameObject.h(18): note: 'std::vector<Engine::OBJCOLLIDERDATA *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=Engine::OBJCOLLIDERDATA *
+          ]
+  ManageMent.cpp
+e:\frame\engine\header\Engine_Macro.h(10): warning C4005: 'PURE': 매크로 재정의
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\combaseapi.h(193): note: 'PURE'의 이전 정의를 참조하십시오.
+e:\frame\engine\header\Transform.h(7): warning C4251: 'CTransform::matWorld': struct 'D3DXMATRIX'에서는 class 'CTransform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(312): note: 'D3DXMATRIX' 선언을 참조하십시오.
+e:\frame\engine\header\Texture.h(11): warning C4251: 'Engine::CTexture::m_vecTexture': class 'std::vector<IDirect3DBaseTexture9 *,std::allocator<_Ty>>'에서는 class 'Engine::CTexture'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=IDirect3DBaseTexture9 *
+          ]
+  e:\frame\engine\header\Texture.h(11): note: 'std::vector<IDirect3DBaseTexture9 *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=IDirect3DBaseTexture9 *
+          ]
+e:\frame\engine\header\GameObject.h(13): warning C4251: 'Engine::CGameObject::m_MapComponent': class 'std::map<const Engine::_tchar *,Engine::CComponent *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'Engine::CGameObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=const Engine::_tchar *,
+              _Ty=Engine::CComponent *
+          ]
+  e:\frame\engine\header\GameObject.h(13): note: 'std::map<const Engine::_tchar *,Engine::CComponent *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=const Engine::_tchar *,
+              _Ty=Engine::CComponent *
+          ]
+e:\frame\engine\header\GameObject.h(18): warning C4251: 'Engine::CGameObject::m_ColliderData': class 'std::vector<Engine::OBJCOLLIDERDATA *,std::allocator<_Ty>>'에서는 class 'Engine::CGameObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=Engine::OBJCOLLIDERDATA *
+          ]
+  e:\frame\engine\header\GameObject.h(18): note: 'std::vector<Engine::OBJCOLLIDERDATA *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=Engine::OBJCOLLIDERDATA *
+          ]
+e:\frame\engine\header\Renderer.h(11): warning C4251: 'Engine::CRenderer::RedererList': class 'std::list<Engine::CGameObject *,std::allocator<_Ty>>'에서는 class 'Engine::CRenderer'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=Engine::CGameObject *
+          ]
+  e:\frame\engine\header\GameObjectMgr.h(34): note: 'std::list<Engine::CGameObject *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=Engine::CGameObject *
+          ]
+e:\frame\engine\header\MeshDynamic.h(15): warning C4251: 'Engine::CMeshDynamic::m_MeshContainer': class 'std::vector<Engine::LPEXMESHCONTAINER,std::allocator<_Ty>>'에서는 class 'Engine::CMeshDynamic'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=Engine::LPEXMESHCONTAINER
+          ]
+  e:\frame\engine\header\MeshDynamic.h(15): note: 'std::vector<Engine::LPEXMESHCONTAINER,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=Engine::LPEXMESHCONTAINER
+          ]
+e:\frame\engine\header\MeshDynamic.h(16): warning C4251: 'Engine::CMeshDynamic::m_matPivot': struct 'D3DXMATRIX'에서는 class 'Engine::CMeshDynamic'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(312): note: 'D3DXMATRIX' 선언을 참조하십시오.
+e:\frame\engine\header\Collider.h(21): warning C4251: 'Engine::CCollider::m_matWorld': struct 'D3DXMATRIX'에서는 class 'Engine::CCollider'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(312): note: 'D3DXMATRIX' 선언을 참조하십시오.
+e:\frame\engine\header\Collider.h(22): warning C4251: 'Engine::CCollider::m_vMin': struct 'D3DXVECTOR3'에서는 class 'Engine::CCollider'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(162): note: 'D3DXVECTOR3' 선언을 참조하십시오.
+e:\frame\engine\header\Collider.h(23): warning C4251: 'Engine::CCollider::m_vMax': struct 'D3DXVECTOR3'에서는 class 'Engine::CCollider'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(162): note: 'D3DXVECTOR3' 선언을 참조하십시오.
+e:\frame\engine\header\NaviMesh.h(10): warning C4251: 'Engine::CNaviMesh::m_pCell_Vector': class 'std::vector<Engine::CCell *,std::allocator<_Ty>>'에서는 class 'Engine::CNaviMesh'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=Engine::CCell *
+          ]
+  e:\frame\engine\header\NaviMesh.h(10): note: 'std::vector<Engine::CCell *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=Engine::CCell *
+          ]
+E:\Frame\Engine\Header\TimeMgr.h(18): warning C4251: 'Engine::CTimeMgr::m_mapTimers': class 'std::map<const Engine::_tchar *,Engine::CTimer *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'Engine::CTimeMgr'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=const Engine::_tchar *,
+              _Ty=Engine::CTimer *
+          ]
+  E:\Frame\Engine\Header\TimeMgr.h(18): note: 'std::map<const Engine::_tchar *,Engine::CTimer *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=const Engine::_tchar *,
+              _Ty=Engine::CTimer *
+          ]
+  MeshDynamic.cpp
+e:\frame\engine\header\Engine_Macro.h(10): warning C4005: 'PURE': 매크로 재정의
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\combaseapi.h(193): note: 'PURE'의 이전 정의를 참조하십시오.
+e:\frame\engine\code\..\Header\MeshDynamic.h(15): warning C4251: 'Engine::CMeshDynamic::m_MeshContainer': class 'std::vector<Engine::LPEXMESHCONTAINER,std::allocator<_Ty>>'에서는 class 'Engine::CMeshDynamic'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=Engine::LPEXMESHCONTAINER
+          ]
+  e:\frame\engine\code\..\Header\MeshDynamic.h(15): note: 'std::vector<Engine::LPEXMESHCONTAINER,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=Engine::LPEXMESHCONTAINER
+          ]
+e:\frame\engine\code\..\Header\MeshDynamic.h(16): warning C4251: 'Engine::CMeshDynamic::m_matPivot': struct 'D3DXMATRIX'에서는 class 'Engine::CMeshDynamic'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(312): note: 'D3DXMATRIX' 선언을 참조하십시오.
+..\Code\MeshDynamic.cpp(117): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+  MeshStatic.cpp
+e:\frame\engine\header\Engine_Macro.h(10): warning C4005: 'PURE': 매크로 재정의
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\combaseapi.h(193): note: 'PURE'의 이전 정의를 참조하십시오.
+..\Code\MeshStatic.cpp(30): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+..\Code\MeshStatic.cpp(88): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+..\Code\MeshStatic.cpp(140): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  NaviMesh.cpp
+e:\frame\engine\header\Engine_Macro.h(10): warning C4005: 'PURE': 매크로 재정의
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\combaseapi.h(193): note: 'PURE'의 이전 정의를 참조하십시오.
+e:\frame\engine\code\..\Header\NaviMesh.h(10): warning C4251: 'Engine::CNaviMesh::m_pCell_Vector': class 'std::vector<Engine::CCell *,std::allocator<_Ty>>'에서는 class 'Engine::CNaviMesh'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=Engine::CCell *
+          ]
+  e:\frame\engine\code\..\Header\NaviMesh.h(10): note: 'std::vector<Engine::CCell *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=Engine::CCell *
+          ]
+E:\Frame\Engine\Header\Cell.h(16): warning C4251: 'Engine::CCell::m_vPoint': struct 'D3DXVECTOR3'에서는 class 'Engine::CCell'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(162): note: 'D3DXVECTOR3' 선언을 참조하십시오.
+E:\Frame\Engine\Header\Cell.h(17): warning C4251: 'Engine::CCell::m_vEdge': struct 'D3DXVECTOR3'에서는 class 'Engine::CCell'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(162): note: 'D3DXVECTOR3' 선언을 참조하십시오.
+..\Code\NaviMesh.cpp(48): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+..\Code\NaviMesh.cpp(50): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+..\Code\NaviMesh.cpp(108): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Renderer.cpp
+e:\frame\engine\header\Engine_Macro.h(10): warning C4005: 'PURE': 매크로 재정의
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\combaseapi.h(193): note: 'PURE'의 이전 정의를 참조하십시오.
+e:\frame\engine\header\GameObject.h(13): warning C4251: 'Engine::CGameObject::m_MapComponent': class 'std::map<const Engine::_tchar *,Engine::CComponent *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'Engine::CGameObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=const Engine::_tchar *,
+              _Ty=Engine::CComponent *
+          ]
+  e:\frame\engine\header\GameObject.h(13): note: 'std::map<const Engine::_tchar *,Engine::CComponent *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=const Engine::_tchar *,
+              _Ty=Engine::CComponent *
+          ]
+e:\frame\engine\header\GameObject.h(18): warning C4251: 'Engine::CGameObject::m_ColliderData': class 'std::vector<Engine::OBJCOLLIDERDATA *,std::allocator<_Ty>>'에서는 class 'Engine::CGameObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=Engine::OBJCOLLIDERDATA *
+          ]
+  e:\frame\engine\header\GameObject.h(18): note: 'std::vector<Engine::OBJCOLLIDERDATA *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=Engine::OBJCOLLIDERDATA *
+          ]
+e:\frame\engine\code\..\Header\Renderer.h(11): warning C4251: 'Engine::CRenderer::RedererList': class 'std::list<Engine::CGameObject *,std::allocator<_Ty>>'에서는 class 'Engine::CRenderer'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=Engine::CGameObject *
+          ]
+  e:\frame\engine\code\..\Header\Renderer.h(11): note: 'std::list<Engine::CGameObject *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=Engine::CGameObject *
+          ]
+  Scene.cpp
+e:\frame\engine\header\Engine_Macro.h(10): warning C4005: 'PURE': 매크로 재정의
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\combaseapi.h(193): note: 'PURE'의 이전 정의를 참조하십시오.
+e:\frame\engine\header\Transform.h(7): warning C4251: 'CTransform::matWorld': struct 'D3DXMATRIX'에서는 class 'CTransform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(312): note: 'D3DXMATRIX' 선언을 참조하십시오.
+e:\frame\engine\header\Texture.h(11): warning C4251: 'Engine::CTexture::m_vecTexture': class 'std::vector<IDirect3DBaseTexture9 *,std::allocator<_Ty>>'에서는 class 'Engine::CTexture'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=IDirect3DBaseTexture9 *
+          ]
+  e:\frame\engine\header\Texture.h(11): note: 'std::vector<IDirect3DBaseTexture9 *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=IDirect3DBaseTexture9 *
+          ]
+e:\frame\engine\header\GameObject.h(13): warning C4251: 'Engine::CGameObject::m_MapComponent': class 'std::map<const Engine::_tchar *,Engine::CComponent *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'Engine::CGameObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=const Engine::_tchar *,
+              _Ty=Engine::CComponent *
+          ]
+  e:\frame\engine\header\GameObject.h(13): note: 'std::map<const Engine::_tchar *,Engine::CComponent *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=const Engine::_tchar *,
+              _Ty=Engine::CComponent *
+          ]
+e:\frame\engine\header\GameObject.h(18): warning C4251: 'Engine::CGameObject::m_ColliderData': class 'std::vector<Engine::OBJCOLLIDERDATA *,std::allocator<_Ty>>'에서는 class 'Engine::CGameObject'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=Engine::OBJCOLLIDERDATA *
+          ]
+  e:\frame\engine\header\GameObject.h(18): note: 'std::vector<Engine::OBJCOLLIDERDATA *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=Engine::OBJCOLLIDERDATA *
+          ]
+e:\frame\engine\header\Renderer.h(11): warning C4251: 'Engine::CRenderer::RedererList': class 'std::list<Engine::CGameObject *,std::allocator<_Ty>>'에서는 class 'Engine::CRenderer'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=Engine::CGameObject *
+          ]
+  e:\frame\engine\header\GameObjectMgr.h(34): note: 'std::list<Engine::CGameObject *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=Engine::CGameObject *
+          ]
+e:\frame\engine\header\MeshDynamic.h(15): warning C4251: 'Engine::CMeshDynamic::m_MeshContainer': class 'std::vector<Engine::LPEXMESHCONTAINER,std::allocator<_Ty>>'에서는 class 'Engine::CMeshDynamic'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=Engine::LPEXMESHCONTAINER
+          ]
+  e:\frame\engine\header\MeshDynamic.h(15): note: 'std::vector<Engine::LPEXMESHCONTAINER,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=Engine::LPEXMESHCONTAINER
+          ]
+e:\frame\engine\header\MeshDynamic.h(16): warning C4251: 'Engine::CMeshDynamic::m_matPivot': struct 'D3DXMATRIX'에서는 class 'Engine::CMeshDynamic'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(312): note: 'D3DXMATRIX' 선언을 참조하십시오.
+e:\frame\engine\header\Collider.h(21): warning C4251: 'Engine::CCollider::m_matWorld': struct 'D3DXMATRIX'에서는 class 'Engine::CCollider'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(312): note: 'D3DXMATRIX' 선언을 참조하십시오.
+e:\frame\engine\header\Collider.h(22): warning C4251: 'Engine::CCollider::m_vMin': struct 'D3DXVECTOR3'에서는 class 'Engine::CCollider'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(162): note: 'D3DXVECTOR3' 선언을 참조하십시오.
+e:\frame\engine\header\Collider.h(23): warning C4251: 'Engine::CCollider::m_vMax': struct 'D3DXVECTOR3'에서는 class 'Engine::CCollider'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(162): note: 'D3DXVECTOR3' 선언을 참조하십시오.
+e:\frame\engine\header\NaviMesh.h(10): warning C4251: 'Engine::CNaviMesh::m_pCell_Vector': class 'std::vector<Engine::CCell *,std::allocator<_Ty>>'에서는 class 'Engine::CNaviMesh'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=Engine::CCell *
+          ]
+  e:\frame\engine\header\NaviMesh.h(10): note: 'std::vector<Engine::CCell *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=Engine::CCell *
+          ]
+  Shader.cpp
+e:\frame\engine\header\Engine_Macro.h(10): warning C4005: 'PURE': 매크로 재정의
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\combaseapi.h(193): note: 'PURE'의 이전 정의를 참조하십시오.
+  컴파일하고 있습니다...
+  Texture.cpp
+e:\frame\engine\header\Engine_Macro.h(10): warning C4005: 'PURE': 매크로 재정의
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\combaseapi.h(193): note: 'PURE'의 이전 정의를 참조하십시오.
+e:\frame\engine\code\..\Header\Texture.h(11): warning C4251: 'Engine::CTexture::m_vecTexture': class 'std::vector<IDirect3DBaseTexture9 *,std::allocator<_Ty>>'에서는 class 'Engine::CTexture'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Ty=IDirect3DBaseTexture9 *
+          ]
+  e:\frame\engine\code\..\Header\Texture.h(11): note: 'std::vector<IDirect3DBaseTexture9 *,std::allocator<_Ty>>' 선언을 참조하십시오.
+          with
+          [
+              _Ty=IDirect3DBaseTexture9 *
+          ]
+..\Code\Texture.cpp(66): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+  TimeMgr.cpp
+e:\frame\engine\header\Engine_Macro.h(10): warning C4005: 'PURE': 매크로 재정의
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\combaseapi.h(193): note: 'PURE'의 이전 정의를 참조하십시오.
+e:\frame\engine\code\..\Header\TimeMgr.h(18): warning C4251: 'Engine::CTimeMgr::m_mapTimers': class 'std::map<const Engine::_tchar *,Engine::CTimer *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'Engine::CTimeMgr'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=const Engine::_tchar *,
+              _Ty=Engine::CTimer *
+          ]
+  e:\frame\engine\code\..\Header\TimeMgr.h(18): note: 'std::map<const Engine::_tchar *,Engine::CTimer *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=const Engine::_tchar *,
+              _Ty=Engine::CTimer *
+          ]
+  Timer.cpp
+e:\frame\engine\header\Engine_Macro.h(10): warning C4005: 'PURE': 매크로 재정의
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\combaseapi.h(193): note: 'PURE'의 이전 정의를 참조하십시오.
+  Transform.cpp
+e:\frame\engine\header\Engine_Macro.h(10): warning C4005: 'PURE': 매크로 재정의
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\combaseapi.h(193): note: 'PURE'의 이전 정의를 참조하십시오.
+e:\frame\engine\code\..\Header\Transform.h(7): warning C4251: 'CTransform::matWorld': struct 'D3DXMATRIX'에서는 class 'CTransform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(312): note: 'D3DXMATRIX' 선언을 참조하십시오.
+  VIBuffer.cpp
+e:\frame\engine\header\Engine_Macro.h(10): warning C4005: 'PURE': 매크로 재정의
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\combaseapi.h(193): note: 'PURE'의 이전 정의를 참조하십시오.
+e:\frame\engine\header\Transform.h(7): warning C4251: 'CTransform::matWorld': struct 'D3DXMATRIX'에서는 class 'CTransform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(312): note: 'D3DXMATRIX' 선언을 참조하십시오.
+  RectUI.cpp
+e:\frame\engine\header\Engine_Macro.h(10): warning C4005: 'PURE': 매크로 재정의
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\combaseapi.h(193): note: 'PURE'의 이전 정의를 참조하십시오.
+e:\frame\engine\header\Transform.h(7): warning C4251: 'CTransform::matWorld': struct 'D3DXMATRIX'에서는 class 'CTransform'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3dx9math.h(312): note: 'D3DXMATRIX' 선언을 참조하십시오.
+     E:\Frame\Release\Engine.lib 라이브러리 및 E:\Frame\Release\Engine.exp 개체를 생성하고 있습니다.
+CameraObject.obj : error LNK2001: __imp___invalid_parameter 외부 기호를 확인할 수 없습니다.
+CameraObject.obj : error LNK2001: __imp___CrtDbgReportW 외부 기호를 확인할 수 없습니다.
+E:\Frame\Release\Engine.dll : fatal error LNK1120: 2개의 확인할 수 없는 외부 참조입니다.

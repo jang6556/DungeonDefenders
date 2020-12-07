@@ -1,0 +1,1635 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99. Default">
+      <UniqueIdentifier>{22242d06-bb34-451f-b999-b557ae1e0c27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. MainApp">
+      <UniqueIdentifier>{d69df163-ffce-41d2-90ae-db3982497323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene">
+      <UniqueIdentifier>{290989fc-13fd-40f3-90da-3dbfc736ec2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\00. Intro">
+      <UniqueIdentifier>{1257f7a7-25d6-469c-91a0-acf2c40c6975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject">
+      <UniqueIdentifier>{0d414d86-1e5d-4217-a377-11535750210b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Header">
+      <UniqueIdentifier>{ae1721ea-ad00-4790-9c9a-4b5a14f46275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderFile">
+      <UniqueIdentifier>{b6472991-dc0d-4e3e-8675-3bcd12000836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static">
+      <UniqueIdentifier>{089a4262-96e9-45e2-97d9-53932c93e82a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\01. Player">
+      <UniqueIdentifier>{e911849e-ff1b-4790-b45f-6e2081fa7c20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01">
+      <UniqueIdentifier>{c074b324-b864-44f0-9d58-e955a8242ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\99. job">
+      <UniqueIdentifier>{7fb3453b-364b-4f61-b89f-11636848f894}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\99. job\Additional Object">
+      <UniqueIdentifier>{b14b7996-26e1-4eee-b6f0-00876a462aa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\99. job\Additional Object\Camera_Dynamic">
+      <UniqueIdentifier>{6563d6af-319e-4b36-81ab-da9cceb24d15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\99. job\00. Intro">
+      <UniqueIdentifier>{75de180b-a36c-4612-ac48-b1d996d1b194}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\03. SkyBox">
+      <UniqueIdentifier>{f0d762bd-23bf-4d78-8cae-0405b4563cff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\02. StageTerrain">
+      <UniqueIdentifier>{6947846b-f0a2-4bd1-8d12-62850a817322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\01. MapObject">
+      <UniqueIdentifier>{765bcf4b-5339-4209-8c46-2b2e00fcfc15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\01. MapObject\00. MagnusQuarter">
+      <UniqueIdentifier>{7906c673-4606-4868-8153-a9c292a7a1e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\01. Player\CrossBow">
+      <UniqueIdentifier>{876ea253-5afe-4dae-9e79-c67642100729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\02. Monster">
+      <UniqueIdentifier>{6097da74-04a1-4c59-83b2-f349746ac760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\02. Monster\01. Demon">
+      <UniqueIdentifier>{7bac4407-fdcf-460a-ad00-e6a4cde6e529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI">
+      <UniqueIdentifier>{94e8775d-4d81-4f76-88c1-ca86fe8ed1bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\06. Effect">
+      <UniqueIdentifier>{73fa7b0e-56e6-4c0f-b9af-9e58b1216204}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\06. Effect\Blood Effect">
+      <UniqueIdentifier>{91a7f0e6-6b43-4dee-907b-bfcfcea99a54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\02. Monster\02. DarkElfArcher">
+      <UniqueIdentifier>{1566bbd5-466d-477c-a767-3df069211cf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\02. Monster\02. DarkElfArcher\DarkElfArrow">
+      <UniqueIdentifier>{73bc1caf-f302-4ff4-b42a-9aa78cb6c0e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\01. Player\Bullet">
+      <UniqueIdentifier>{f34c20d3-6f81-4d24-ba57-01b0464f353f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\01. Player\Bullet\FireBullet">
+      <UniqueIdentifier>{5e5decc9-5476-44bf-aef6-12fccdece263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\01. Player\Bullet\CrossBowArrow">
+      <UniqueIdentifier>{c5f3ee4a-5757-4beb-be86-0c44a759d9a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\01. Player\Bullet\SharpBullet">
+      <UniqueIdentifier>{e97331b9-6ff6-4d77-a4bc-85941fe2e704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\06. Effect\SharpBulletEffect">
+      <UniqueIdentifier>{c43fd72b-0f70-4972-bae7-c49db9bc9706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\06. Effect\SharpBulletEffect\SharpBulletExplosive">
+      <UniqueIdentifier>{4e169524-47db-44d0-a5d6-890bcd188793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\06. Effect\FireBulletEffect">
+      <UniqueIdentifier>{ca705f39-3a12-4ab5-a2db-b297770f8f45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\99. Loading">
+      <UniqueIdentifier>{19ed2374-a3f7-4ee8-bc34-c6683e32f897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\01. Scene_Stage">
+      <UniqueIdentifier>{74214c32-0cfb-453b-bf3a-704e7ec75c14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\01. Scene_Stage\01. Magnus">
+      <UniqueIdentifier>{61b4b0d9-dd4b-40e5-9e74-bf9d4460c2a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\00. Intro\Object">
+      <UniqueIdentifier>{c59921e0-420a-41bc-984a-d42869efeecc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\00. Intro\Object\BackLogo">
+      <UniqueIdentifier>{5af93914-9698-4cd9-b0e8-4ac199417f32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\06. Effect\FireBulletEffect\FireBulletFireEffect">
+      <UniqueIdentifier>{5bf62f39-3dc8-4a70-a433-4d47047e5ed9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\07. Item">
+      <UniqueIdentifier>{22d98fa8-a1b5-4e8a-850a-a1757dbc8bb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\07. Item\ManaToken">
+      <UniqueIdentifier>{9f9448f1-7cab-4f92-a322-f2acdf05452e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\01. Player\BuildObject">
+      <UniqueIdentifier>{62df461c-a1b1-4373-a08d-270cb202b91e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\01. Player\BuildObject\PresentBomb">
+      <UniqueIdentifier>{5db1f659-6ed6-4e19-9d07-e4b442b9d6ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\06. Effect\FogEffect">
+      <UniqueIdentifier>{fe6c8458-aae3-4d41-87b2-bc0d54742ce0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\01. Player\BuildObject\PoisionField">
+      <UniqueIdentifier>{ea2a6d83-3631-4a2b-bc9a-3136f1f0e1bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\02. Monster\03. Goblin">
+      <UniqueIdentifier>{cdd7b254-de44-4fee-9a34-8fda0275eec2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\MonsterUI">
+      <UniqueIdentifier>{55064dad-0704-4e9d-a8da-cc0404c17081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\MonsterUI\MonsterHpBar">
+      <UniqueIdentifier>{c1c1b064-1ce5-42c8-8c93-7b7f91b359b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\MonsterUI\MonsterHpBar\MonsterHPFrame">
+      <UniqueIdentifier>{1ed16ea3-a2ac-4a87-b03f-209de7768c15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\MonsterUI\MonsterHpBar\MonsterHpCurr">
+      <UniqueIdentifier>{1204be41-e7ae-4606-8cd1-0442362d536c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\MonsterUI\MonsterHpBar\MonsterHpCurr\MonsterHpColor">
+      <UniqueIdentifier>{9f075725-fd69-4d75-800e-39bd41ddf4d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\MonsterUI\MonsterHpBar\MonsterHpCurr\MonsterHpNum">
+      <UniqueIdentifier>{b54d2a35-c47b-4235-8252-0e188c79cb36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\02. Monster\04. Kobold">
+      <UniqueIdentifier>{89ac6947-99eb-4443-85d9-8efbb0311a0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\05. Object">
+      <UniqueIdentifier>{c51d1ce8-00e0-47e0-bcb4-cf53bafe9e14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\05. Object\TresureChest">
+      <UniqueIdentifier>{1dfee210-2ab8-4ab8-830a-88c1271e8606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\05. Object\Crystal">
+      <UniqueIdentifier>{ec223c13-28d4-4c48-a38e-66972e27f30d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\05. Object\Crystal\Crystal_Core">
+      <UniqueIdentifier>{e7a7951a-ba96-4ff9-95d5-c58e98339a21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\05. Object\Crystal\Crystal_Head">
+      <UniqueIdentifier>{ab066303-c86f-46ac-8281-ef5ceb71e716}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\05. Object\Crystal\Crystal_Ring">
+      <UniqueIdentifier>{2496a935-b389-44db-8b9a-04434ae37ae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\01. Player\Tower">
+      <UniqueIdentifier>{001c2581-34e1-4421-aab3-6722379b7c89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\01. Player\Tower\MissilTower">
+      <UniqueIdentifier>{ddba7810-df76-42be-a5c9-042048d32b1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\01. Player\Tower\TowerBullet">
+      <UniqueIdentifier>{e0df24f0-eb18-47be-b5b2-9a5800e3cafb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\01. Player\Tower\TowerBullet\MissileTowerBullet">
+      <UniqueIdentifier>{be8f1b36-3cae-4f7d-9ee9-e658f4eebefc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\01. Player\Tower\TowerBullet\MissileTowerBullet\Projectile">
+      <UniqueIdentifier>{45815eb1-53d9-46db-bf53-648463b35430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\DamageFont">
+      <UniqueIdentifier>{e74cdc9e-07f9-436b-a109-47d5b90e346c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\DamageFont\DamageBuffer">
+      <UniqueIdentifier>{7eeb09a9-66cb-4bdc-a515-a22dcf64e83e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\01. Player\Tower\Shield">
+      <UniqueIdentifier>{6e198f9d-9565-490f-8406-2a3e123dec96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\PlayerUI">
+      <UniqueIdentifier>{598f8308-70a7-40c0-8716-ec3fa213b1eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\PlayerUI\Panel">
+      <UniqueIdentifier>{3d1b6f35-e6bf-45ca-a8ca-ca086582d3ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\PlayerUI\Panel\ExpBar">
+      <UniqueIdentifier>{b3bdefea-b760-40ea-8312-0678d65aef48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel">
+      <UniqueIdentifier>{240982b0-b973-46f4-89de-d9fdf4c8bcca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\PlayerUI\Panel\VerticalBar">
+      <UniqueIdentifier>{d34c0ad9-5180-495a-be78-f10e04687e04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\PlayerUI\Panel\VerticalBar\VerticalBarBackGround">
+      <UniqueIdentifier>{2860256d-5bde-42c3-ab2c-b596d5f2245d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\PlayerUI\Panel\VerticalBar\VerticalBarBackGround\VerticalBarBackGroundRev">
+      <UniqueIdentifier>{583964b0-6d69-476b-bde9-82d173790eea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\PlayerUI\Panel\VerticalBar\VerticalBar">
+      <UniqueIdentifier>{2b27021e-e650-40cd-a58e-ea0016e6a656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\PlayerUI\Panel\VerticalBar\VerticalBar\VerticalBarHP">
+      <UniqueIdentifier>{b0066749-6c41-407b-8200-9a8fbecc754f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\PlayerUI\Panel\VerticalBar\VerticalBar\VerticalBarHP\VerticalBarHPEffect">
+      <UniqueIdentifier>{893ebf95-db17-493f-ae0a-279e608ded16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\PlayerUI\Panel\VerticalBar\VerticalBar\VerticalBarMP">
+      <UniqueIdentifier>{ce404e89-71d4-4c7e-9eec-10aba13ce77b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\PlayerUI\Panel\VerticalBar\VerticalBar\VerticalBarMP\VerticalBarMPEffect">
+      <UniqueIdentifier>{10ef4d60-1c12-459e-9d57-46c830572877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel\SkillIcon">
+      <UniqueIdentifier>{9f736f61-0666-48c4-8112-3cd11470a1cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel\SkillIcon\BuildIcon">
+      <UniqueIdentifier>{4974c1af-3081-4e93-b70a-a47cf550f524}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel\SkillIcon\BombIncon">
+      <UniqueIdentifier>{a4336ba2-876f-40af-bafc-2e6bf083afe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel\SkillIcon\LightShotIcon">
+      <UniqueIdentifier>{110fc143-f889-46ba-a510-be8d6d31dabd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel\SkillIcon\ShotGunIcon">
+      <UniqueIdentifier>{19387bac-17f3-4927-b030-6d3b327ab4f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel\SkillIcon\PoisionFieldIcon">
+      <UniqueIdentifier>{d54ff0c9-b82a-4de2-b83d-c002939e8759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel\SkillIcon\ShieldIcon">
+      <UniqueIdentifier>{5f7a9afb-49d3-4597-a702-6a805a69a6a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\08 Decal">
+      <UniqueIdentifier>{440aa774-46ea-4ac5-a728-17e878f87e0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\08 Decal\Summon Decal">
+      <UniqueIdentifier>{f44cab24-3e14-46e1-ba49-9c2f5d670035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel\SkillIcon\MissileTowerIcon">
+      <UniqueIdentifier>{22da34e8-6cd1-4feb-9ead-b08e91585a95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\PlayerUI\WavePanel">
+      <UniqueIdentifier>{2330d36a-026f-4f26-b537-36bb7450bcd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\PlayerUI\WavePanel\WaveBar">
+      <UniqueIdentifier>{0c74749d-3cfa-40e7-bae4-8362213a2823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\PlayerUI\WavePanel\WaveInfo">
+      <UniqueIdentifier>{77346a88-5021-4db5-9175-d9e84285f38a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\PlayerUI\WavePanel\WaveBar\WaveBarContents">
+      <UniqueIdentifier>{7e54f90e-aa53-4e76-8f12-4646dc5d29db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\PlayerUI\Panel\BuildLoadingBar">
+      <UniqueIdentifier>{93d1062d-b0be-48f8-8325-1899cbeed64d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\PlayerUI\Panel\PlayerInfo">
+      <UniqueIdentifier>{7da346a6-a939-4d43-b5f4-9966aa0f6d3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\PlayerUI\Panel\BuildLoadingBar\BuildLoadingContent">
+      <UniqueIdentifier>{3d4f2553-9bb7-48a7-9095-26c3634f2bde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\09. MonsterController">
+      <UniqueIdentifier>{71ce49ba-f04d-47c6-823f-2b72e80efe01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\09. MonsterController\MagnusController">
+      <UniqueIdentifier>{a7b2866c-8532-4cc3-bb58-25282b468671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\Notice">
+      <UniqueIdentifier>{82729053-e9bf-48e6-b4f1-ace29a75eb38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\Notice\Phase">
+      <UniqueIdentifier>{461587c4-b20b-4d9d-85cd-697bada820c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\Notice\WaveNum">
+      <UniqueIdentifier>{f565faf0-4055-4819-bcbe-433ca142605c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\01. MapObject\02. Stair">
+      <UniqueIdentifier>{7a27e264-9c90-466e-8052-717d1783b0d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\01. MapObject\02. Stair\01. CrossStair">
+      <UniqueIdentifier>{0c94e228-fb2e-4db4-ac25-5c57e8c44cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\01. MapObject\02. Stair\02. LongStair">
+      <UniqueIdentifier>{f66d5323-d03b-4883-ab39-a5875c7928c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\01. MapObject\02. Stair\03. ShortStair">
+      <UniqueIdentifier>{c203e738-da46-4024-963f-206e54bf7f09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\01. MapObject\04. Rail">
+      <UniqueIdentifier>{4e721248-d595-4bde-ab86-a702f83f02b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\01. MapObject\04. Rail\01. RailSet">
+      <UniqueIdentifier>{350409ab-454e-4628-a1d9-f979c35a6aa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\01. MapObject\04. Rail\02. LongRail">
+      <UniqueIdentifier>{ab790568-a599-4d0f-821a-81f7d694dd41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\01. MapObject\04. Rail\03. DoubleRail">
+      <UniqueIdentifier>{00fb1213-26fd-4309-b3ec-1f54f7d2be37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\01. MapObject\00. MagnusQuarter\01. MainFrame">
+      <UniqueIdentifier>{3aa272d3-1ab7-472b-9775-fa8fe8cc6319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\01. MapObject\00. MagnusQuarter\02. CenterArch">
+      <UniqueIdentifier>{3d128a44-a186-4d59-b5c6-1e81f23bf4d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\01. MapObject\00. MagnusQuarter\03. CenterWall">
+      <UniqueIdentifier>{86edc8c8-3262-4b6a-b751-12aa01e9facb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\01. MapObject\00. MagnusQuarter\04. BridgeWall">
+      <UniqueIdentifier>{439bef1b-3fcc-40b7-a902-be9ac28f327f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\01. MapObject\01. InteractionObject">
+      <UniqueIdentifier>{87d7db6c-29b9-48a6-9bcd-c1984aaf4716}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\01. MapObject\01. InteractionObject\01. ArcanePad">
+      <UniqueIdentifier>{b2daf48e-5b89-4b9f-9010-0baf10086a06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\01. MapObject\05. LightObject">
+      <UniqueIdentifier>{99a654a6-9626-4710-988f-3e9a936e8240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\01. MapObject\05. LightObject\01. CrystalStaff">
+      <UniqueIdentifier>{5e645568-2f67-4881-be92-9e93645e3eb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\02. Monster\05. OrcBruiser">
+      <UniqueIdentifier>{cefc07cd-561b-4d7a-83ec-59baaa266b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\01. Player\Tower\StrikeTower">
+      <UniqueIdentifier>{0bc137f9-6a9a-4ddc-ad4d-613d6977326e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\01. Player\Tower\LightningTower">
+      <UniqueIdentifier>{780dfd33-ee68-4816-80dc-409c463f6485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel\SkillIcon\LightningTowerIcon">
+      <UniqueIdentifier>{6be32101-9c3c-4fb6-9a00-158ccb4345d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel\SkillIcon\StrikeTowerIcon">
+      <UniqueIdentifier>{3919462c-f956-4c04-8828-da3a9a26ca47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\01. Player\Tower\GlowBall">
+      <UniqueIdentifier>{72b06eed-4d11-4037-96d5-e9df16c972e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\StatUI">
+      <UniqueIdentifier>{f9686c4f-1b53-41a4-b860-5fd1516441f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\StatUI\StatPanel">
+      <UniqueIdentifier>{b0e2c47d-6a8f-4de1-b785-732d92232015}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\StatUI\StatBackGround">
+      <UniqueIdentifier>{6c070494-10dd-4d63-81bd-a203455f625e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\StatUI\DamageUpIcon">
+      <UniqueIdentifier>{bca70bb1-4182-4be5-93d4-468231897106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\StatUI\HealthUpIcon">
+      <UniqueIdentifier>{a984c0c0-1ee6-4be3-a8e7-2563b0fd88ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\StatUI\CoolDownIcon">
+      <UniqueIdentifier>{f36d658d-9963-41de-994a-42fbb3f5644d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\StatUI\ManaDownIcon">
+      <UniqueIdentifier>{683f4c8f-78bd-41c6-af70-c04954f004bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\StatUI\PlayerInfoPanel">
+      <UniqueIdentifier>{4e2ff491-8e13-47b8-8112-55080565eb54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\StatUI\EmptyPanel">
+      <UniqueIdentifier>{e435ce04-34ce-4a2e-9a38-64917a735465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\StatUI\PointIcon">
+      <UniqueIdentifier>{ffe084a0-b34f-4920-97f0-fc60d3369476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\StatUI\NumIcon">
+      <UniqueIdentifier>{4a36a6d8-ed85-46a7-8f42-ddfcac3e3cd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\StatUI\InfoPanel">
+      <UniqueIdentifier>{345f25fe-281b-469e-8ad7-9be55eb4cd8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\StatUI\InfoPanel\AttackPanel">
+      <UniqueIdentifier>{bef9b47a-cc39-4a4a-94f3-950675fea12a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\StatUI\InfoPanel\HealthPanel">
+      <UniqueIdentifier>{71c0f50e-c5cb-4dfe-8238-d1d7aebb3623}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\StatUI\InfoPanel\CoolPanel">
+      <UniqueIdentifier>{1ceef580-bc2e-4a03-b08f-304e199b5a97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\StatUI\InfoPanel\ManaPanel">
+      <UniqueIdentifier>{c690f713-43ce-46c6-b6b0-8743234dd4ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\StatUI\InfoPanel\SkillDamagePanel">
+      <UniqueIdentifier>{2fefc165-46f7-4c42-a0a1-6f6c6b07ceb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\StatUI\InfoPanel\DotIcon">
+      <UniqueIdentifier>{fcc18591-df2d-4cce-91ba-17f3fcaff4e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\StatUI\InfoPanel\PercentIcon">
+      <UniqueIdentifier>{ce06f4a5-59c2-4898-a7a4-da8e044a6c7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\StatUI\InfoPanel\NumPanel">
+      <UniqueIdentifier>{ec1233af-e9e3-405e-86ac-fdfb46fb9cc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\StatUI\InfoPanel\NumPanel\PointNumPanel">
+      <UniqueIdentifier>{4c52fc57-9699-4509-8097-f61deb6235ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\StatUI\InfoPanel\NumPanel\AttackNumPanel">
+      <UniqueIdentifier>{6e6fca56-d8bc-44ac-91b5-7d054e47f4cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\StatUI\InfoPanel\NumPanel\SkillNumPanel">
+      <UniqueIdentifier>{5e9a9d2c-60a6-4c84-9483-591511ca25eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\StatUI\InfoPanel\NumPanel\HealthNumPanel">
+      <UniqueIdentifier>{b6658ffd-c1e8-4e0c-aa02-8027e06df167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\StatUI\InfoPanel\NumPanel\CoolNumPanel">
+      <UniqueIdentifier>{ea30ac52-e5fc-456e-975f-c19856842fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\StatUI\InfoPanel\NumPanel\ManaNumPanel">
+      <UniqueIdentifier>{74aa2a26-b2ed-4ab5-bb75-c806acfd40a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\StatUI\InfoPanel\NumPanel\AbilityNumPanel">
+      <UniqueIdentifier>{a5c45e74-5e71-4e89-875b-fea879bf4c47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\StatUI\InfoPanel\LevelPanel">
+      <UniqueIdentifier>{53e1bb04-d391-40c5-ab49-fce4789b52f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\PlayerUI\Panel\NumberPanel">
+      <UniqueIdentifier>{8c2d5150-5b28-4b5b-95e6-329086e206ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\PlayerUI\Panel\NumberPanel\Number">
+      <UniqueIdentifier>{b2e77d0c-8e03-4a3f-acd2-4a280f44e77c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\PlayerUI\Panel\TextPanel">
+      <UniqueIdentifier>{343f969e-a43d-4d62-9efc-37b2ff431a6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\PlayerUI\Panel\TextPanel\TextUI">
+      <UniqueIdentifier>{c96eb282-0fb4-4a60-9788-dc31f8e83a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\01. Player\Tower\LightningTower\LightningBolt">
+      <UniqueIdentifier>{c78ed8c8-af41-41b7-a30f-82c9056516e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\01. Player\Tower\StrikeTower\StrikeBeam">
+      <UniqueIdentifier>{acc1bdb7-2600-4aec-967c-ac8bd9d327a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\06. Effect\BombEffect">
+      <UniqueIdentifier>{85d71499-e925-4d96-a243-70790f5fb2e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\06. Effect\LightEffect">
+      <UniqueIdentifier>{f7e9e4e4-a86e-4308-ad91-223121978309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\06. Effect\LightEffect\LightSphere">
+      <UniqueIdentifier>{03499f60-59d8-4ad5-bbc7-acc1f66bb5bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\06. Effect\LightEffect\LightBolt">
+      <UniqueIdentifier>{2fb87fcd-c054-4b13-9a87-1d284c8d175c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\06. Effect\ItemEffect">
+      <UniqueIdentifier>{b213fa1a-6abb-476b-846a-4b89a15c9505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\06. Effect\BlueExplosion">
+      <UniqueIdentifier>{81f7284b-4f9c-4d2f-a899-b77c95abb24d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\06. Effect\YellowExplosion">
+      <UniqueIdentifier>{f622c0b1-f2bd-4859-87df-eb82d67e40a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\00. Intro\Object\LoadingBar">
+      <UniqueIdentifier>{e74ae0f0-f35b-430c-bca5-7c4bd0217a01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel\SkillIcon\HealIcon">
+      <UniqueIdentifier>{3121bbbf-9173-4169-8a26-785188cd4a79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\06. Effect\TowerHitEffect">
+      <UniqueIdentifier>{5c7aeee0-819a-49a1-aeb9-e9d85964677f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\06. Effect\PoisonFieldEffect">
+      <UniqueIdentifier>{5ddc14e1-b181-4579-aa8a-e6a7434c5e1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\01. MapObject\06. StaticLoadObject">
+      <UniqueIdentifier>{e7ca0114-a24f-4a39-9063-6c5e87ea22d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\01. MapObject\05. LightObject\02. WallTorch">
+      <UniqueIdentifier>{073b0fd0-cb7b-4bef-82d4-73c89eeb3c33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\01. MapObject\05. LightObject\02. WallTorch\WallTorchDouble">
+      <UniqueIdentifier>{4600a873-b00c-4989-b716-63a6e0961587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\01. MapObject\05. LightObject\02. WallTorch\WallTorchTriple">
+      <UniqueIdentifier>{94cc7e06-9af9-4c5d-99a5-a16df23006b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\01. MapObject\05. LightObject\02. WallTorch\WallTorchAngle">
+      <UniqueIdentifier>{62fc34d5-6d95-4ca5-9246-9e4e6b42a6a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\01. MapObject\05. LightObject\02. WallTorch\WallTorchHeight">
+      <UniqueIdentifier>{dfb31e77-7a6c-468a-978b-f835b89d7138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\01. MapObject\05. LightObject\02. WallTorch\WallTorchSingle">
+      <UniqueIdentifier>{a93c7f6d-2439-4400-b685-33f56608c139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\01. MapObject\05. LightObject\02. WallTorch\WallTorchLong">
+      <UniqueIdentifier>{17ac5c35-5ae8-4ccc-9337-049cecea83bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\01. MapObject\05. LightObject\01. CrystalStaff\CrystalStaff_Single">
+      <UniqueIdentifier>{9d00f7ea-a71e-416b-a814-822790d75514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. Stage01\01. MapObject\05. LightObject\01. CrystalStaff\CrystalStaff_Double">
+      <UniqueIdentifier>{46515c0a-b649-43c3-90c4-9a65d89a135b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\HpBarUI">
+      <UniqueIdentifier>{a34ed107-fe19-4205-b4e2-f842d666e978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\04. UI\HpBarUI\HpBarContent">
+      <UniqueIdentifier>{9e08ed77-7c8a-493b-9a18-da18865b695b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\99. job\SoundMgr">
+      <UniqueIdentifier>{cd805d8e-0f1c-41c9-b684-025788b8dfe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\05. Object\MousePoint">
+      <UniqueIdentifier>{9108eebc-2a1c-4162-b9be-bf620183b3d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\08 Decal\Range Decal">
+      <UniqueIdentifier>{5dfcb248-e20f-4566-b428-1cef617d1ea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\08 Decal\BuildPoint">
+      <UniqueIdentifier>{724c10ad-34e5-4c8e-9127-f7992a33a2be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\06. Effect\BuildEffect">
+      <UniqueIdentifier>{55aa4154-6428-4b70-85a9-2579472f29f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\06. Effect\LavaEffect">
+      <UniqueIdentifier>{ad896d74-71db-40d4-af50-1ce6154acef5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. Static\06. Effect\LavaFogEffect">
+      <UniqueIdentifier>{a4cd5d69-86a9-4abb-bd45-35c9488730b0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MainApp.h">
+      <Filter>00. MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Define.h">
+      <Filter>98. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SceneIntro.h">
+      <Filter>01. Scene\00. Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Intro.h">
+      <Filter>02. GameObject\99. job\00. Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CameraDynamic.h">
+      <Filter>02. GameObject\99. job\Additional Object\Camera_Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\StageTerrain.h">
+      <Filter>02. GameObject\00. Static\02. StageTerrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SkyBox.h">
+      <Filter>02. GameObject\00. Static\03. SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Player.h">
+      <Filter>02. GameObject\00. Static\01. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CrossStair.h">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\02. Stair\01. CrossStair</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LongStair.h">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\02. Stair\02. LongStair</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ShortStair.h">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\02. Stair\03. ShortStair</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CrossBow.h">
+      <Filter>02. GameObject\00. Static\01. Player\CrossBow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CrossBowArrow.h">
+      <Filter>02. GameObject\00. Static\01. Player\Bullet\CrossBowArrow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Demon.h">
+      <Filter>02. GameObject\01. Stage01\02. Monster\01. Demon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SkillPanel.h">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\VerticalBarBackGround.h">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\VerticalBar\VerticalBarBackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\VerticalBarBackGroundRev.h">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\VerticalBar\VerticalBarBackGround\VerticalBarBackGroundRev</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\VerticalBarMP.h">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\VerticalBar\VerticalBar\VerticalBarMP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\VerticalBarHP.h">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\VerticalBar\VerticalBar\VerticalBarHP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\UI_Header.h">
+      <Filter>02. GameObject\00. Static\04. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\VerticalBarHPEffect.h">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\VerticalBar\VerticalBar\VerticalBarHP\VerticalBarHPEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\VerticalBarMPEffect.h">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\VerticalBar\VerticalBar\VerticalBarMP\VerticalBarMPEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\TresureChest.h">
+      <Filter>02. GameObject\00. Static\05. Object\TresureChest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Effect.h">
+      <Filter>02. GameObject\00. Static\06. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\BloodEffect.h">
+      <Filter>02. GameObject\00. Static\06. Effect\Blood Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\DarkElfArcher.h">
+      <Filter>02. GameObject\01. Stage01\02. Monster\02. DarkElfArcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\DarkElfArrow.h">
+      <Filter>02. GameObject\01. Stage01\02. Monster\02. DarkElfArcher\DarkElfArrow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\FireBullet.h">
+      <Filter>02. GameObject\00. Static\01. Player\Bullet\FireBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Bullet.h">
+      <Filter>02. GameObject\00. Static\01. Player\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SharpBullet.h">
+      <Filter>02. GameObject\00. Static\01. Player\Bullet\SharpBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SharpBulletEffect.h">
+      <Filter>02. GameObject\00. Static\06. Effect\SharpBulletEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Effect_Header.h">
+      <Filter>02. GameObject\00. Static\06. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SharpBulletExplosive.h">
+      <Filter>02. GameObject\00. Static\06. Effect\SharpBulletEffect\SharpBulletExplosive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\FireBulletEffect.h">
+      <Filter>02. GameObject\00. Static\06. Effect\FireBulletEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LightShot.h">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel\SkillIcon\LightShotIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ShotGun.h">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel\SkillIcon\ShotGunIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Loading.h">
+      <Filter>01. Scene\99. Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Scene_Magnus.h">
+      <Filter>01. Scene\01. Scene_Stage\01. Magnus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\BackLogo.h">
+      <Filter>01. Scene\00. Intro\Object\BackLogo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\FireBulletFireEffect.h">
+      <Filter>02. GameObject\00. Static\06. Effect\FireBulletEffect\FireBulletFireEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ManaToken.h">
+      <Filter>02. GameObject\00. Static\07. Item\ManaToken</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Item.h">
+      <Filter>02. GameObject\00. Static\07. Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Item_Header.h">
+      <Filter>02. GameObject\00. Static\07. Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\PresentBomb.h">
+      <Filter>02. GameObject\00. Static\01. Player\BuildObject\PresentBomb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\BuildObject.h">
+      <Filter>02. GameObject\00. Static\01. Player\BuildObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\FogEffect.h">
+      <Filter>02. GameObject\00. Static\06. Effect\FogEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\PoisionField.h">
+      <Filter>02. GameObject\00. Static\01. Player\BuildObject\PoisionField</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Monster.h">
+      <Filter>02. GameObject\01. Stage01\02. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Goblin.h">
+      <Filter>02. GameObject\01. Stage01\02. Monster\03. Goblin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Monster_Magnus_Header.h">
+      <Filter>02. GameObject\01. Stage01\02. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MonsterHpBar.h">
+      <Filter>02. GameObject\00. Static\04. UI\MonsterUI\MonsterHpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MonsterUI.h">
+      <Filter>02. GameObject\00. Static\04. UI\MonsterUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MonsterHpFrame.h">
+      <Filter>02. GameObject\00. Static\04. UI\MonsterUI\MonsterHpBar\MonsterHPFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MonsterHpCurr.h">
+      <Filter>02. GameObject\00. Static\04. UI\MonsterUI\MonsterHpBar\MonsterHpCurr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MonsterHpColor.h">
+      <Filter>02. GameObject\00. Static\04. UI\MonsterUI\MonsterHpBar\MonsterHpCurr\MonsterHpColor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MonsterHpNum.h">
+      <Filter>02. GameObject\00. Static\04. UI\MonsterUI\MonsterHpBar\MonsterHpCurr\MonsterHpNum</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Kobold.h">
+      <Filter>02. GameObject\01. Stage01\02. Monster\04. Kobold</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SkillIcon.h">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel\SkillIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\BuildIcon.h">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel\SkillIcon\BuildIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\BombIcon.h">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel\SkillIcon\BombIncon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\PoisionFieldIcon.h">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel\SkillIcon\PoisionFieldIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Crystal.h">
+      <Filter>02. GameObject\00. Static\05. Object\Crystal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CrystalCore.h">
+      <Filter>02. GameObject\00. Static\05. Object\Crystal\Crystal_Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CrystalHead.h">
+      <Filter>02. GameObject\00. Static\05. Object\Crystal\Crystal_Head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CrystalRing.h">
+      <Filter>02. GameObject\00. Static\05. Object\Crystal\Crystal_Ring</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Static_Object.h">
+      <Filter>02. GameObject\00. Static\05. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Shield.h">
+      <Filter>02. GameObject\00. Static\01. Player\Tower\Shield</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\BuildObject_Header.h">
+      <Filter>02. GameObject\00. Static\01. Player\BuildObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ShieldIcon.h">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel\SkillIcon\ShieldIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MissilTower.h">
+      <Filter>02. GameObject\00. Static\01. Player\Tower\MissilTower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Tower.h">
+      <Filter>02. GameObject\00. Static\01. Player\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\GlowBall.h">
+      <Filter>02. GameObject\00. Static\01. Player\Tower\GlowBall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\TowerBullet.h">
+      <Filter>02. GameObject\00. Static\01. Player\Tower\TowerBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MissileTowerBullet.h">
+      <Filter>02. GameObject\00. Static\01. Player\Tower\TowerBullet\MissileTowerBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Projectile.h">
+      <Filter>02. GameObject\00. Static\01. Player\Tower\TowerBullet\MissileTowerBullet\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\DamageBuffer.h">
+      <Filter>02. GameObject\00. Static\04. UI\DamageFont\DamageBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\DamageFont.h">
+      <Filter>02. GameObject\00. Static\04. UI\DamageFont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Panel.h">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\PlayerUI.h">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ExpBar.h">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\ExpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Decal.h">
+      <Filter>02. GameObject\00. Static\08 Decal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SummonDecal.h">
+      <Filter>02. GameObject\00. Static\08 Decal\Summon Decal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MissileTowerIcon.h">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel\SkillIcon\MissileTowerIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WavePanel.h">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\WavePanel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WaveInfo.h">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\WavePanel\WaveInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WaveBar.h">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\WavePanel\WaveBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WaveBarContents.h">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\WavePanel\WaveBar\WaveBarContents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\BuildLoadingBar.h">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\BuildLoadingBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\PlayerInfo.h">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\PlayerInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\BuildLoadingContent.h">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\BuildLoadingBar\BuildLoadingContent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MonsterController.h">
+      <Filter>02. GameObject\00. Static\09. MonsterController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MagnusController.h">
+      <Filter>02. GameObject\00. Static\09. MonsterController\MagnusController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WaveNum.h">
+      <Filter>02. GameObject\00. Static\04. UI\Notice\WaveNum</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Phase.h">
+      <Filter>02. GameObject\00. Static\04. UI\Notice\Phase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MagnusQuarter.h">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\00. MagnusQuarter\01. MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\StaticMapObject.h">
+      <Filter>02. GameObject\01. Stage01\01. MapObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ArcanePad.h">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\01. InteractionObject\01. ArcanePad</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\RailSet.h">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\04. Rail\01. RailSet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\BridgeWall.h">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\00. MagnusQuarter\04. BridgeWall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CenterArch.h">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\00. MagnusQuarter\02. CenterArch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CenterWall.h">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\00. MagnusQuarter\03. CenterWall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\DoubleRail.h">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\04. Rail\03. DoubleRail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LongRail.h">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\04. Rail\02. LongRail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MagnusQuater_Header.h">
+      <Filter>02. GameObject\01. Stage01\01. MapObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LightObject.h">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\05. LightObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WallTorchTriple.h">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\05. LightObject\02. WallTorch\WallTorchTriple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WallTorchAngle.h">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\05. LightObject\02. WallTorch\WallTorchAngle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WallTorchDouble.h">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\05. LightObject\02. WallTorch\WallTorchDouble</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WallTorchHeight.h">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\05. LightObject\02. WallTorch\WallTorchHeight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WallTorchLong.h">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\05. LightObject\02. WallTorch\WallTorchLong</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\WallTorchSingle.h">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\05. LightObject\02. WallTorch\WallTorchSingle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\OrcBruiser.h">
+      <Filter>02. GameObject\01. Stage01\02. Monster\05. OrcBruiser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LightningTower.h">
+      <Filter>02. GameObject\00. Static\01. Player\Tower\LightningTower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\StrikeTower.h">
+      <Filter>02. GameObject\00. Static\01. Player\Tower\StrikeTower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LightningTowerIcon.h">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel\SkillIcon\LightningTowerIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\StrikeTowerIcon.h">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel\SkillIcon\StrikeTowerIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\StatUI.h">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\StatPanel.h">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\StatPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\StatBackGround.h">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\StatBackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\StatUI_Header.h">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\DamageUpIcon.h">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\DamageUpIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CoolDownIcon.h">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\CoolDownIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\HealthUpIcon.h">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\HealthUpIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ManaDownIcon.h">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\ManaDownIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\PlayerInfoPanel.h">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\PlayerInfoPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\EmptyPanel.h">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\EmptyPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\PointIcon.h">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\PointIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\NumIcon.h">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\NumIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\AttackPanel.h">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\InfoPanel\AttackPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CoolPanel.h">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\InfoPanel\CoolPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\HealthPanel.h">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\InfoPanel\HealthPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SkillDamagePanel.h">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\InfoPanel\SkillDamagePanel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ManaPanel.h">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\InfoPanel\ManaPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\DotIcon.h">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\InfoPanel\DotIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\PercentIcon.h">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\InfoPanel\PercentIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\PointNumPanel.h">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\InfoPanel\NumPanel\PointNumPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\AttackNumPanel.h">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\InfoPanel\NumPanel\AttackNumPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CoolNumPanel.h">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\InfoPanel\NumPanel\CoolNumPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\HealthNumPanel.h">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\InfoPanel\NumPanel\HealthNumPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ManaNumPanel.h">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\InfoPanel\NumPanel\ManaNumPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SkillDamageNumPanel.h">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\InfoPanel\NumPanel\SkillNumPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\AbilityNumPanel.h">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\InfoPanel\NumPanel\AbilityNumPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LevelPanel.h">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\InfoPanel\LevelPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\NumberPanel.h">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\NumberPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\NumberUI.h">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\NumberPanel\Number</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\TextPanel.h">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\TextPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\TextUI.h">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\TextPanel\TextUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LightningBolt.h">
+      <Filter>02. GameObject\00. Static\01. Player\Tower\LightningTower\LightningBolt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\StrikeBeam.h">
+      <Filter>02. GameObject\00. Static\01. Player\Tower\StrikeTower\StrikeBeam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\BombEffect.h">
+      <Filter>02. GameObject\00. Static\06. Effect\BombEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LightningSphere.h">
+      <Filter>02. GameObject\00. Static\06. Effect\LightEffect\LightSphere</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LightningBoltEffect.h">
+      <Filter>02. GameObject\00. Static\06. Effect\LightEffect\LightBolt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\ItemEffect.h">
+      <Filter>02. GameObject\00. Static\06. Effect\ItemEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\BlueExplosion.h">
+      <Filter>02. GameObject\00. Static\06. Effect\BlueExplosion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\YellowExplosion.h">
+      <Filter>02. GameObject\00. Static\06. Effect\YellowExplosion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LoadingBarContent.h">
+      <Filter>01. Scene\00. Intro\Object\LoadingBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LoadingBarFrame.h">
+      <Filter>01. Scene\00. Intro\Object\LoadingBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\HealIcon.h">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel\SkillIcon\HealIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\TowerHitEffect.h">
+      <Filter>02. GameObject\00. Static\06. Effect\TowerHitEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\PoisonFieldEffect.h">
+      <Filter>02. GameObject\00. Static\06. Effect\PoisonFieldEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\StaticLoadObject.h">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\06. StaticLoadObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\CrystalStaff.h">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\05. LightObject\01. CrystalStaff\CrystalStaff_Double</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LargeCrystalStaff.h">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\05. LightObject\01. CrystalStaff\CrystalStaff_Single</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\HpBarUI.h">
+      <Filter>02. GameObject\00. Static\04. UI\HpBarUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\HpBarContent.h">
+      <Filter>02. GameObject\00. Static\04. UI\HpBarUI\HpBarContent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\SoundMgr.h">
+      <Filter>02. GameObject\99. job\SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\MousePoint.h">
+      <Filter>02. GameObject\00. Static\05. Object\MousePoint</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\RangeDecal.h">
+      <Filter>02. GameObject\00. Static\08 Decal\Range Decal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\Decal_Header.h">
+      <Filter>02. GameObject\00. Static\08 Decal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\BuildPoint.h">
+      <Filter>02. GameObject\00. Static\08 Decal\BuildPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\BuildEffect.h">
+      <Filter>02. GameObject\00. Static\06. Effect\BuildEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LavaEffect.h">
+      <Filter>02. GameObject\00. Static\06. Effect\LavaEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Header\LavaFogEffect.h">
+      <Filter>02. GameObject\00. Static\06. Effect\LavaFogEffect</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MainApp.cpp">
+      <Filter>00. MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SceneIntro.cpp">
+      <Filter>01. Scene\00. Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Intro.cpp">
+      <Filter>02. GameObject\99. job\00. Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CameraDynamic.cpp">
+      <Filter>02. GameObject\99. job\Additional Object\Camera_Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\StageTerrain.cpp">
+      <Filter>02. GameObject\00. Static\02. StageTerrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SkyBox.cpp">
+      <Filter>02. GameObject\00. Static\03. SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Player.cpp">
+      <Filter>02. GameObject\00. Static\01. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CrossStair.cpp">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\02. Stair\01. CrossStair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LongStair.cpp">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\02. Stair\02. LongStair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ShortStair.cpp">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\02. Stair\03. ShortStair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CrossBow.cpp">
+      <Filter>02. GameObject\00. Static\01. Player\CrossBow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CrossBowArrow.cpp">
+      <Filter>02. GameObject\00. Static\01. Player\Bullet\CrossBowArrow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Demon.cpp">
+      <Filter>02. GameObject\01. Stage01\02. Monster\01. Demon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SkillPanel.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\VerticalBarBackGround.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\VerticalBar\VerticalBarBackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\VerticalBarBackGroundRev.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\VerticalBar\VerticalBarBackGround\VerticalBarBackGroundRev</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\VerticalBarMP.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\VerticalBar\VerticalBar\VerticalBarMP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\VerticalBarHP.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\VerticalBar\VerticalBar\VerticalBarHP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\VerticalBarHPEffect.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\VerticalBar\VerticalBar\VerticalBarHP\VerticalBarHPEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\VerticalBarMPEffect.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\VerticalBar\VerticalBar\VerticalBarMP\VerticalBarMPEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TresureChest.cpp">
+      <Filter>02. GameObject\00. Static\05. Object\TresureChest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Effect.cpp">
+      <Filter>02. GameObject\00. Static\06. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BloodEffect.cpp">
+      <Filter>02. GameObject\00. Static\06. Effect\Blood Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DarkElfArcher.cpp">
+      <Filter>02. GameObject\01. Stage01\02. Monster\02. DarkElfArcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DarkElfArrow.cpp">
+      <Filter>02. GameObject\01. Stage01\02. Monster\02. DarkElfArcher\DarkElfArrow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FireBullet.cpp">
+      <Filter>02. GameObject\00. Static\01. Player\Bullet\FireBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Bullet.cpp">
+      <Filter>02. GameObject\00. Static\01. Player\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SharpBullet.cpp">
+      <Filter>02. GameObject\00. Static\01. Player\Bullet\SharpBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SharpBulletEffect.cpp">
+      <Filter>02. GameObject\00. Static\06. Effect\SharpBulletEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SharpBulletExplosive.cpp">
+      <Filter>02. GameObject\00. Static\06. Effect\SharpBulletEffect\SharpBulletExplosive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FireBulletEffect.cpp">
+      <Filter>02. GameObject\00. Static\06. Effect\FireBulletEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LightShot.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel\SkillIcon\LightShotIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ShotGun.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel\SkillIcon\ShotGunIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Loading.cpp">
+      <Filter>01. Scene\99. Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Scene_Magnus.cpp">
+      <Filter>01. Scene\01. Scene_Stage\01. Magnus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BackLogo.cpp">
+      <Filter>01. Scene\00. Intro\Object\BackLogo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FireBulletFireEffect.cpp">
+      <Filter>02. GameObject\00. Static\06. Effect\FireBulletEffect\FireBulletFireEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ManaToken.cpp">
+      <Filter>02. GameObject\00. Static\07. Item\ManaToken</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Item.cpp">
+      <Filter>02. GameObject\00. Static\07. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PresentBomb.cpp">
+      <Filter>02. GameObject\00. Static\01. Player\BuildObject\PresentBomb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BuildObject.cpp">
+      <Filter>02. GameObject\00. Static\01. Player\BuildObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FogEffect.cpp">
+      <Filter>02. GameObject\00. Static\06. Effect\FogEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PoisionField.cpp">
+      <Filter>02. GameObject\00. Static\01. Player\BuildObject\PoisionField</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Monster.cpp">
+      <Filter>02. GameObject\01. Stage01\02. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Goblin.cpp">
+      <Filter>02. GameObject\01. Stage01\02. Monster\03. Goblin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MonsterHpBar.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\MonsterUI\MonsterHpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MonsterUI.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\MonsterUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MonsterHpFrame.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\MonsterUI\MonsterHpBar\MonsterHPFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MonsterHpCurr.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\MonsterUI\MonsterHpBar\MonsterHpCurr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MonsterHpColor.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\MonsterUI\MonsterHpBar\MonsterHpCurr\MonsterHpColor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MonsterHpNum.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\MonsterUI\MonsterHpBar\MonsterHpCurr\MonsterHpNum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Kobold.cpp">
+      <Filter>02. GameObject\01. Stage01\02. Monster\04. Kobold</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SkillIcon.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel\SkillIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BuildIcon.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel\SkillIcon\BuildIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BombIcon.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel\SkillIcon\BombIncon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PoisionFieldIcon.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel\SkillIcon\PoisionFieldIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Crystal.cpp">
+      <Filter>02. GameObject\00. Static\05. Object\Crystal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CrystalCore.cpp">
+      <Filter>02. GameObject\00. Static\05. Object\Crystal\Crystal_Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CrystalHead.cpp">
+      <Filter>02. GameObject\00. Static\05. Object\Crystal\Crystal_Head</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CrystalRing.cpp">
+      <Filter>02. GameObject\00. Static\05. Object\Crystal\Crystal_Ring</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Shield.cpp">
+      <Filter>02. GameObject\00. Static\01. Player\Tower\Shield</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ShieldIcon.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel\SkillIcon\ShieldIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MissilTower.cpp">
+      <Filter>02. GameObject\00. Static\01. Player\Tower\MissilTower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Tower.cpp">
+      <Filter>02. GameObject\00. Static\01. Player\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\GlowBall.cpp">
+      <Filter>02. GameObject\00. Static\01. Player\Tower\GlowBall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TowerBullet.cpp">
+      <Filter>02. GameObject\00. Static\01. Player\Tower\TowerBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MissileTowerBullet.cpp">
+      <Filter>02. GameObject\00. Static\01. Player\Tower\TowerBullet\MissileTowerBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Projectile.cpp">
+      <Filter>02. GameObject\00. Static\01. Player\Tower\TowerBullet\MissileTowerBullet\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DamageBuffer.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\DamageFont\DamageBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DamageFont.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\DamageFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Panel.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PlayerUI.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ExpBar.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\ExpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Decal.cpp">
+      <Filter>02. GameObject\00. Static\08 Decal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SummonDecal.cpp">
+      <Filter>02. GameObject\00. Static\08 Decal\Summon Decal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MissileTowerIcon.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel\SkillIcon\MissileTowerIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\WavePanel.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\WavePanel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\WaveInfo.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\WavePanel\WaveInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\WaveBar.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\WavePanel\WaveBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\WaveBarContents.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\WavePanel\WaveBar\WaveBarContents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BuildLoadingBar.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\BuildLoadingBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PlayerInfo.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\PlayerInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BuildLoadingContent.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\BuildLoadingBar\BuildLoadingContent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MonsterController.cpp">
+      <Filter>02. GameObject\00. Static\09. MonsterController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MagnusController.cpp">
+      <Filter>02. GameObject\00. Static\09. MonsterController\MagnusController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\WaveNum.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\Notice\WaveNum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Phase.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\Notice\Phase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MagnusQuarter.cpp">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\00. MagnusQuarter\01. MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\StaticMapObject.cpp">
+      <Filter>02. GameObject\01. Stage01\01. MapObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ArcanePad.cpp">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\01. InteractionObject\01. ArcanePad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RailSet.cpp">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\04. Rail\01. RailSet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BridgeWall.cpp">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\00. MagnusQuarter\04. BridgeWall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CenterArch.cpp">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\00. MagnusQuarter\02. CenterArch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CenterWall.cpp">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\00. MagnusQuarter\03. CenterWall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DoubleRail.cpp">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\04. Rail\03. DoubleRail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LongRail.cpp">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\04. Rail\02. LongRail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LightObject.cpp">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\05. LightObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\WallTorchTriple.cpp">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\05. LightObject\02. WallTorch\WallTorchTriple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\WallTorchAngle.cpp">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\05. LightObject\02. WallTorch\WallTorchAngle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\WallTorchDouble.cpp">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\05. LightObject\02. WallTorch\WallTorchDouble</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\WallTorchHeight.cpp">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\05. LightObject\02. WallTorch\WallTorchHeight</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\WallTorchLong.cpp">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\05. LightObject\02. WallTorch\WallTorchLong</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\WallTorchSingle.cpp">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\05. LightObject\02. WallTorch\WallTorchSingle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\OrcBruiser.cpp">
+      <Filter>02. GameObject\01. Stage01\02. Monster\05. OrcBruiser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LightningTower.cpp">
+      <Filter>02. GameObject\00. Static\01. Player\Tower\LightningTower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\StrikeTower.cpp">
+      <Filter>02. GameObject\00. Static\01. Player\Tower\StrikeTower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LightningTowerIcon.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel\SkillIcon\LightningTowerIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\StrikeTowerIcon.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel\SkillIcon\StrikeTowerIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\StatUI.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\StatPanel.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\StatPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\StatBackGround.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\StatBackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DamageUpIcon.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\DamageUpIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CoolDownIcon.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\CoolDownIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\HealthUpIcon.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\HealthUpIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ManaDownIcon.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\ManaDownIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PlayerInfoPanel.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\PlayerInfoPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\EmptyPanel.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\EmptyPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PointIcon.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\PointIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\NumIcon.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\NumIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\AttackPanel.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\InfoPanel\AttackPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CoolPanel.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\InfoPanel\CoolPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\HealthPanel.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\InfoPanel\HealthPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SkillDamagePanel.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\InfoPanel\SkillDamagePanel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ManaPanel.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\InfoPanel\ManaPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\DotIcon.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\InfoPanel\DotIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PercentIcon.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\InfoPanel\PercentIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PointNumPanel.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\InfoPanel\NumPanel\PointNumPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\AttackNumPanel.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\InfoPanel\NumPanel\AttackNumPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CoolNumPanel.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\InfoPanel\NumPanel\CoolNumPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\HealthNumPanel.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\InfoPanel\NumPanel\HealthNumPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ManaNumPanel.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\InfoPanel\NumPanel\ManaNumPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SkillDamageNumPanel.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\InfoPanel\NumPanel\SkillNumPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\AbilityNumPanel.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\InfoPanel\NumPanel\AbilityNumPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LevelPanel.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\StatUI\InfoPanel\LevelPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\NumberPanel.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\NumberPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\NumberUI.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\NumberPanel\Number</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TextPanel.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\TextPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TextUI.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\TextPanel\TextUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LightningBolt.cpp">
+      <Filter>02. GameObject\00. Static\01. Player\Tower\LightningTower\LightningBolt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\StrikeBeam.cpp">
+      <Filter>02. GameObject\00. Static\01. Player\Tower\StrikeTower\StrikeBeam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BombEffect.cpp">
+      <Filter>02. GameObject\00. Static\06. Effect\BombEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LightningSphere.cpp">
+      <Filter>02. GameObject\00. Static\06. Effect\LightEffect\LightSphere</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LightningBoltEffect.cpp">
+      <Filter>02. GameObject\00. Static\06. Effect\LightEffect\LightBolt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\ItemEffect.cpp">
+      <Filter>02. GameObject\00. Static\06. Effect\ItemEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BlueExplosion.cpp">
+      <Filter>02. GameObject\00. Static\06. Effect\BlueExplosion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\YellowExplosion.cpp">
+      <Filter>02. GameObject\00. Static\06. Effect\YellowExplosion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LoadingBarContent.cpp">
+      <Filter>01. Scene\00. Intro\Object\LoadingBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LoadingBarFrame.cpp">
+      <Filter>01. Scene\00. Intro\Object\LoadingBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\HealIcon.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\PlayerUI\Panel\SkillPanel\SkillIcon\HealIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TowerHitEffect.cpp">
+      <Filter>02. GameObject\00. Static\06. Effect\TowerHitEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PoisonFieldEffect.cpp">
+      <Filter>02. GameObject\00. Static\06. Effect\PoisonFieldEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\StaticLoadObject.cpp">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\06. StaticLoadObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CrystalStaff.cpp">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\05. LightObject\01. CrystalStaff\CrystalStaff_Double</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LargeCrystalStaff.cpp">
+      <Filter>02. GameObject\01. Stage01\01. MapObject\05. LightObject\01. CrystalStaff\CrystalStaff_Single</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\HpBarUI.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\HpBarUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\HpBarContent.cpp">
+      <Filter>02. GameObject\00. Static\04. UI\HpBarUI\HpBarContent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\SoundMgr.cpp">
+      <Filter>02. GameObject\99. job\SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\MousePoint.cpp">
+      <Filter>02. GameObject\00. Static\05. Object\MousePoint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\RangeDecal.cpp">
+      <Filter>02. GameObject\00. Static\08 Decal\Range Decal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BuildPoint.cpp">
+      <Filter>02. GameObject\00. Static\08 Decal\BuildPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\BuildEffect.cpp">
+      <Filter>02. GameObject\00. Static\06. Effect\BuildEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LavaEffect.cpp">
+      <Filter>02. GameObject\00. Static\06. Effect\LavaEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\LavaFogEffect.cpp">
+      <Filter>02. GameObject\00. Static\06. Effect\LavaFogEffect</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>99. Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99. Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>99. Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="ShaderFile\Shader.fx">
+      <Filter>ShaderFile</Filter>
+    </FxCompile>
+    <FxCompile Include="ShaderFile\ShaderUI.fx">
+      <Filter>ShaderFile</Filter>
+    </FxCompile>
+    <FxCompile Include="ShaderFile\ShaderVertical.fx">
+      <Filter>ShaderFile</Filter>
+    </FxCompile>
+    <FxCompile Include="ShaderFile\ShaderVerticalEffect.fx">
+      <Filter>ShaderFile</Filter>
+    </FxCompile>
+    <FxCompile Include="ShaderFile\ShaderEffect.fx">
+      <Filter>ShaderFile</Filter>
+    </FxCompile>
+    <FxCompile Include="ShaderFile\ShaderUI_Cool.fx">
+      <Filter>ShaderFile</Filter>
+    </FxCompile>
+    <FxCompile Include="ShaderFile\Shader_Default.fx">
+      <Filter>ShaderFile</Filter>
+    </FxCompile>
+    <FxCompile Include="ShaderFile\Shader_Tower_Bullet.fx">
+      <Filter>ShaderFile</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
